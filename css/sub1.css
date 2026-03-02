@@ -290,6 +290,32 @@
     text-align: center;
 }
 
+.hamburger_nav .lnb_list .lnb li .click {
+    color: var(--main_blue);
+    /* 기본 색 */
+    animation: blink 1s infinite;
+    /* 1초 간격으로 계속 깜빡 */
+}
+
+/* 깜빡거리는 애니메이션 */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    /* 보임 */
+    50% {
+        opacity: 0;
+    }
+
+    /* 사라짐 */
+    100% {
+        opacity: 1;
+    }
+
+    /* 다시 보임 */
+}
+
 /* 메인 네비게이션 개별 메뉴 */
 .nav .nav_gnb_wrap {
     position: absolute;
@@ -394,6 +420,33 @@
 .nav_gnb .lnb li a {
     font-size: 18px;
     font-weight: var(--Medium);
+}
+
+/* 첫 번째 a만 선택해서 애니메이션 적용 */
+.nav_gnb .lnb li .click {
+    color: var(--main_blue);
+    /* 기본 색 */
+    animation: blink 1s infinite;
+    /* 1초 간격으로 계속 깜빡 */
+}
+
+/* 깜빡거리는 애니메이션 */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    /* 보임 */
+    50% {
+        opacity: 0;
+    }
+
+    /* 사라짐 */
+    100% {
+        opacity: 1;
+    }
+
+    /* 다시 보임 */
 }
 
 /* 서치탭 */
