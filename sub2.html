@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 리셋 -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- 스와이퍼,폰트어썸 cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 공통클래스 -->
+  <link rel="stylesheet" href="css/common.css">
+  <!-- 스타일css -->
+  <link rel="stylesheet" href="css/sub2.css">
+</head>
+
+<body class="m_menu_open active">
+  <header id="header">
+    <div class="top_menu">
+      <ul class="family_gnb">
+        <li>
+          <a href="#none">
+            통합복합문화센터
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            시립도서관
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            미디어센터
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            생활문화센터
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            아트홀
+          </a>
+        </li>
+      </ul>
+      <div class="m_menu_img">
+        <img src="image/coriyo.png" alt="코리요 사진">
+      </div>
+      <ul class="user_menu">
+        <li>
+          <a href="#none">
+            로그인
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            회원가입
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            예술인DB
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="header-main top_container">
+      <div class="main_logo">
+        <a href="index.html">
+          <div class="img"></div>
+        </a>
+      </div>
+      <div class="all_menu_wrap">
+        <nav class="nav">
+          <div class="hamburger_nav">
+            <button class="hamburger_btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="lnb_list">
+              <ul class="lnb event">
+                <li><a href="#none">전체일정</a></li>
+                <li><a href="#none">공연</a></li>
+                <li><a href="#none">전시</a></li>
+                <li><a href="#none">축제</a></li>
+                <li><a href="#none">기타행사</a></li>
+                <li><a href="#none">기타일정</a></li>
+              </ul>
+              <ul class="lnb cultural_business">
+                <li><a href="#none">문화자치시민협의체</a></li>
+                <li><a href="#none">지역예술지원</a></li>
+                <li><a href="#none">문화공간</a></li>
+                <li><a href="#none">관광지 소개</a></li>
+                <li><a href="#none">문화활성화</a></li>
+                <li><a href="#none">찾아가는 공연장</a></li>
+                <li><a href="#none">시민문화사업</a></li>
+                <li><a href="#none">화성시예술단</a></li>
+              </ul>
+              <ul class="lnb education">
+                <li><a href="#none">시립도서관프로그램</a></li>
+                <li><a href="#none">스포츠</a></li>
+                <li><a href="#none">맞춤형미디어교육</a></li>
+                <li><a href="#none">생활문화교육</a></li>
+                <li><a href="#none">화성시축제기획학교</a></li>
+              </ul>
+              <ul class="lnb archiving">
+                <li><a href="#none">사진</a></li>
+                <li><a href="#none">보고서</a></li>
+                <li><a href="#none">웹진</a></li>
+                <li><a href="#none">문화공간지도</a></li>
+                <li><a href="#none">관광지도</a></li>
+                <li><a href="#none">예술인DB</a></li>
+              </ul>
+              <ul class="lnb alarm">
+                <li><a href="#none">공지사항</a></li>
+                <li><a href="#none">채용정보</a></li>
+                <li><a href="#none">공고</a></li>
+                <li><a href="#none">보도자료</a></li>
+                <li><a href="#none">외부공모안내</a></li>
+              </ul>
+              <ul class="lnb management">
+                <li><a href="#none">정보공개</a></li>
+                <li><a href="#none">ESG경영</a></li>
+                <li><a href="#none">윤리경영</a></li>
+                <li><a href="#none">클린신고센터</a></li>
+                <li><a href="#none">조례및규정</a></li>
+                <li><a href="#none">고객의소리</a></li>
+              </ul>
+              <ul class="lnb aboutUs">
+                <li><a href="#none">인사말</a></li>
+                <li><a href="#none">비전및사업소개</a></li>
+                <li><a href="#none">인권경영</a></li>
+                <li><a href="#none">연혁</a></li>
+                <li><a href="#none">CI</a></li>
+                <li><a href="#none">조직구성</a></li>
+                <li><a href="#none">부서별전화번호</a></li>
+                <li><a href="#none">오시는길</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav_gnb_wrap">
+            <ul class="nav_gnb">
+              <li>
+                <a href="#none" class="has_sub first" data-target="gnb01">공연·전시·행사</a>
+                <ul class="lnb event">
+                  <li><a href="#none">전체일정</a></li>
+                  <li><a href="#none">공연</a></li>
+                  <li><a href="#none">전시</a></li>
+                  <li><a href="#none">축제</a></li>
+                  <li><a href="#none">기타행사</a></li>
+                  <li><a href="#none">기타일정</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub" data-target="gnb02">문화사업</a>
+                <ul class="lnb cultural_business">
+                  <li><a href="#none">문화자치시민협의체</a></li>
+                  <li><a href="#none">지역예술지원</a></li>
+                  <li><a href="#none">문화공간</a></li>
+                  <li><a href="#none">관광지 소개</a></li>
+                  <li><a href="#none">문화활성화</a></li>
+                  <li><a href="#none">찾아가는 공연장</a></li>
+                  <li><a href="#none">시민문화사업</a></li>
+                  <li><a href="#none">화성시예술단</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub education" data-target="gnb03">교육</a>
+                <ul class="lnb education">
+                  <li><a href="#none">시립도서관프로그램</a></li>
+                  <li><a href="#none">스포츠</a></li>
+                  <li><a href="#none">맞춤형미디어교육</a></li>
+                  <li><a href="#none">생활문화교육</a></li>
+                  <li><a href="#none">화성시축제기획학교</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub" data-target="gnb04">아카이브</a>
+                <ul class="lnb archiving">
+                  <li><a href="#none">사진</a></li>
+                  <li><a href="#none">보고서</a></li>
+                  <li><a href="#none">웹진</a></li>
+                  <li><a href="#none">문화공간지도</a></li>
+                  <li><a href="#none">관광지도</a></li>
+                  <li><a href="#none">예술인DB</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub" data-target="gnb05">재단소식</a>
+                <ul class="lnb alarm">
+                  <li><a href="#none">공지사항</a></li>
+                  <li><a href="#none">채용정보</a></li>
+                  <li><a href="#none">공고</a></li>
+                  <li><a href="#none">보도자료</a></li>
+                  <li><a href="#none">외부공모안내</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub" data-target="gnb06">재단경영</a>
+                <ul class="lnb management">
+                  <li><a href="#none">정보공개</a></li>
+                  <li><a href="#none">ESG경영</a></li>
+                  <li><a href="#none">윤리경영</a></li>
+                  <li><a href="#none">클린신고센터</a></li>
+                  <li><a href="#none">조례및규정</a></li>
+                  <li><a href="#none">고객의소리</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub last" data-target="gnb07">재단소개</a>
+                <ul class="lnb aboutUs">
+                  <li><a href="#none">인사말</a></li>
+                  <li><a href="#none">비전및사업소개</a></li>
+                  <li><a href="#none">인권경영</a></li>
+                  <li><a href="#none">연혁</a></li>
+                  <li><a href="#none">CI</a></li>
+                  <li><a href="#none">조직구성</a></li>
+                  <li><a href="#none">부서별전화번호</a></li>
+                  <li><a href="#none">오시는길</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="search_tab_wrap">
+          <div class="search_tab">
+            <input type="text" placeholder="검색어를 입력해주세요.">
+            <button class="search_btn">
+              <a href="#none">
+                <i class="fas fa-search"></i>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 모바일메뉴 -->
+  <div class="mobail_menu">
+    <div class="mobail_menu_lift">
+      <ul class="mobail_gnb_tab">
+        <li data-target="m_menu01" class="m_gnb_tab active">공연·전시·행사</li>
+        <li data-target="m_menu02" class="m_gnb_tab">문화사업</li>
+        <li data-target="m_menu03" class="m_gnb_tab">교육</li>
+        <li data-target="m_menu04" class="m_gnb_tab">아카이브</li>
+        <li data-target="m_menu05" class="m_gnb_tab">재단소식</li>
+        <li data-target="m_menu06" class="m_gnb_tab">재단경영</li>
+        <li data-target="m_menu07" class="m_gnb_tab">재단소개</li>
+      </ul>
+    </div>
+    <div class="mobail_menu_right">
+      <ul class="m_lnb m_event active" id="m_menu01">
+        <li><a href="#none">전체일정</a></li>
+        <li><a href="#none">공연</a></li>
+        <li><a href="#none">전시</a></li>
+        <li><a href="#none">축제</a>
+          <ul class="depth">
+            <li><a href="#none">화성 뱃놀이 축제</a></li>
+            <li><a href="#none">정조 효 문화제/정조대왕 능행차</a></li>
+            <li><a href="#none">화성루나빛축제</a></li>
+            <li><a href="#none">병점문화축제</a></li>
+            <li><a href="#none">가족사랑축제</a></li>
+            <li><a href="#none">품앗이 공연예술축제</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">기타행사</a></li>
+        <li><a href="#none">기타일정</a></li>
+      </ul>
+      <ul class="m_lnb m_cultural_business" id="m_menu02">
+        <li><a href="#none">문화자치시민협의체</a></li>
+        <li><a href="#none">지역예술지원</a>
+          <ul class="depth">
+            <li><a href="#none">예술활동지원사업</a></li>
+            <li><a href="#none">꿈의 무용단 화성</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">문화공간</a></li>
+        <li><a href="#none">관광지 소개</a></li>
+        <li><a href="#none">문화활성화</a>
+          <ul class="depth">
+            <li><a href="#none">생활문화동호회활성화</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">찾아가는 공연장</a></li>
+        <li><a href="#none">시민문화사업</a>
+          <ul class="depth">
+            <li><a href="#none">화성예술플랫폼</a></li>
+            <li><a href="#none">코리요홍보사업</a></li>
+            <li><a href="#none">라이징스타를 찾아</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">화성시예술단</a></li>
+      </ul>
+      <ul class="m_lnb m_education" id="m_menu03">
+        <li><a href="#none">시립도서관프로그램</a></li>
+        <li><a href="#none">스포츠</a></li>
+        <li><a href="#none">맞춤형미디어교육</a></li>
+        <li><a href="#none">생활문화교육</a></li>
+        <li><a href="#none">화성시축제기획학교</a></li>
+      </ul>
+      <ul class="m_lnb m_archiving" id="m_menu04">
+        <li><a href="#none">사진</a></li>
+        <li><a href="#none">보고서</a></li>
+        <li><a href="#none">웹진</a>
+          <ul class="depth">
+            <li><a href="#none">화분</a></li>
+            <li><a href="#none">풍경</a></li>
+            <li><a href="#none">감상여행</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">문화공간지도</a></li>
+        <li><a href="#none">관광지도</a></li>
+        <li><a href="#none">예술인DB</a></li>
+      </ul>
+      <ul class="m_lnb m_alarm" id="m_menu05">
+        <li><a href="#none">공지사항</a></li>
+        <li><a href="#none">채용정보</a></li>
+        <li><a href="#none">공고</a></li>
+        <li><a href="#none">보도자료</a></li>
+        <li><a href="#none">외부공모안내</a></li>
+      </ul>
+      <ul class="m_lnb m_management" id="m_menu06">
+        <li><a href="#none">정보공개</a>
+          <ul class="depth">
+            <li><a href="#none">행정 정보 공표 목록</a></li>
+            <li><a href="#none">예 · 결산 및 운영 계획</a></li>
+            <li><a href="#none">운영 인력 및 인건비</a></li>
+            <li><a href="#none">업무추진비</a></li>
+            <li><a href="#none">이사회</a></li>
+            <li><a href="#none">수의계약</a></li>
+            <li><a href="#none">축제 관련</a></li>
+            <li><a href="#none">기타 공개</a></li>
+            <li><a href="#none">복리후생</a></li>
+            <li><a href="#none">정보 공개</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">ESG경영</a></li>
+        <li><a href="#none">윤리경영</a>
+          <ul class="depth">
+            <li><a href="#none">임직원 행동강령</a></li>
+            <li><a href="#none">청탁금지법 위반 신고</a></li>
+            <li><a href="#none">부패행위 신고</a></li>
+            <li><a href="#none">행동강령 위반 신고</a></li>
+            <li><a href="#none">공익신고</a></li>
+            <li><a href="#none">고객서비스 현장</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">클린신고센터</a></li>
+        <li><a href="#none">조례및규정</a>
+          <ul class="depth">
+            <li><a href="#none">운영조례</a></li>
+            <li><a href="#none">동탄복합문화센터 운영 조례</a></li>
+            <li><a href="#none">도서관 운영 조례</a></li>
+            <li><a href="#none">화성시문화관광재단 정관</a></li>
+            <li><a href="#none">이사회 운영규정</a></li>
+            <li><a href="#none">재단 규</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">고객의소리</a></li>
+      </ul>
+      <ul class="m_lnb m_aboutUs" id="m_menu07">
+        <li><a href="#none">인사말</a></li>
+        <li><a href="#none">비전및사업소개</a></li>
+        <li><a href="#none">인권경영</a>
+          <ul class="depth">
+            <li><a href="#none">CEO 인권경영 메세지</a></li>
+            <li><a href="#none">인권 경영 선언문</a></li>
+            <li><a href="#none">인권 경영 내규</a></li>
+            <li><a href="#none">인권침해 구제방법 및 절차</a></li>
+            <li><a href="#none">인권 경영 활동</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">연혁</a></li>
+        <li><a href="#none">CI</a></li>
+        <li><a href="#none">조직구성</a></li>
+        <li><a href="#none">부서별전화번호</a></li>
+        <li><a href="#none">오시는길</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 페이지인트로 -->
+  <section id="pageIntro">
+    <div class="container">
+      <div class="title">
+        <h2 class="main_title">재단소식</h2>
+        <h3 class="sub_title">재단의 주요 소식을 전해드립니다.</h3>
+      </div>
+      <nav class="breadcrumb_nav">
+        <ul class="breadcrumb_list">
+          <li class="main_page_open">
+            <a href="index.html" aria-label="홈">
+              <i class="fas fa-home"></i>
+            </a>
+          </li>
+
+          <!-- 1번 드롭다운 -->
+          <li class="menu_toggle">
+            <a href="#none" class="menu_btn">
+              <span>재단소식</span>
+              <i class="fas fa-angle-down"></i>
+            </a>
+
+            <ul class="main_menu menu1" aria-label="문화사업 하위메뉴">
+              <li><a href="#none">공연·전시·행사</a></li>
+              <li><a href="#none">문화사업</a></li>
+              <li><a href="#none">교육</a></li>
+              <li><a href="#none">아카이브</a></li>
+              <li><a href="#none">재단소식</a></li>
+              <li><a href="#none">재단경영</a></li>
+              <li><a href="#none">재단소개</a></li>
+            </ul>
+          </li>
+
+          <!-- 2번 드롭다운 -->
+          <li class="menu_toggle">
+            <a href="#none" class="menu_btn">
+              <span>공지사항</span>
+              <i class="fas fa-angle-down down"></i>
+            </a>
+
+            <ul class="main_menu menu2" aria-label="관광지소개 하위메뉴">
+              <li><a href="#none">공지사항</a></li>
+              <li><a href="#none">채용정보</a></li>
+              <li><a href="#none">공고</a></li>
+              <li><a href="#none">보도자료</a></li>
+              <li><a href="#none">외부공모안내</a></li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <div class="search_tab_wrap">
+          <div class="search_tab">
+            <input type="text" id="searchBox" placeholder="검색어를 입력해주세요.">
+            <button class="search_btn">
+              <a href="#none">
+                <i class="fas fa-search"></i>
+              </a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- 게시판 목록 -->
+  <section id="notice">
+    <div class="container">
+      <table id="noticeTable">
+        <!-- 칸 비율 -->
+        <colgroup>
+          <col class="col1">
+          <col class="col2">
+          <col class="col3">
+          <col class="col4">
+        </colgroup>
+
+        <!-- 머릿글(제목) -->
+        <thead>
+          <tr>
+            <th>번호</th>
+            <th>구분</th>
+            <th>제목</th>
+            <th>날짜</th>
+          </tr>
+        </thead>
+
+        <!-- 본문 -->
+        <tbody>
+          <!-- 1페이지 -->
+          <tr>
+            <td>854</td>
+            <td>공지사항</td>
+            <td>2025 화성예술지원 성과공유주간 _신진예술인 쇼케이스 &lt;FIRST COLORS&gt;
+            </td>
+            <td>2025.11.29</td>
+          </tr>
+          <tr>
+            <td>853</td>
+            <td>공지사항</td>
+            <td>2025 화성예술지원 &lt;Palette Days&gt; 아티스트 토크 참여 신청 <FIRST COLORS>
+            </td>
+            <td>2025.11.26</td>
+          </tr>
+          <tr>
+            <td>852</td>
+            <td>공지사항</td>
+            <td>2025 화성예술지원 성과공유주간 &lt;Palette Days&gt;
+            </td>
+            <td>2025.11.26</td>
+          </tr>
+          <tr>
+            <td>851</td>
+            <td>공지사항</td>
+            <td>[2025 화성메세나] 공연집단 바람길 - 뮤지컬 <청고래 밴드>
+            </td>
+            <td>2025.11.18</td>
+          </tr>
+          <tr>
+            <td>850</td>
+            <td>공지사항</td>
+            <td>엄태정 조각전 ‘낯선자의 포에지’ 전시연계 웰니스프로그램 <미술관 요가>
+            </td>
+            <td>2025.11.17</td>
+          </tr>
+          <tr>
+            <td>849</td>
+            <td>공지사항</td>
+            <td>2025 화성메세나 아트페어 참여 예술가 공모 결과 발표</td>
+            <td>2025.11.14</td>
+          </tr>
+          <tr>
+            <td>848</td>
+            <td>공지사항</td>
+            <td>2025 꿈의 무용단 '화성'_울트라화성 제2회 정기공연 <안녕! 지구>
+            </td>
+            <td>2025.11.14</td>
+          </tr>
+          <tr>
+            <td>847</td>
+            <td>공지사항</td>
+            <td>2025 일상 예술활동 지원사업 자유공간+ 성과공유전</td>
+            <td>2025.11.12</td>
+          </tr>
+          <tr>
+            <td>846</td>
+            <td>공지사항</td>
+            <td>2025 찾아가는 공연장 「화성시 문화의날」 주간 거리공연 11월4주 - 서해랑 해상케이블카</td>
+            <td>2025.11.12</td>
+          </tr>
+          <tr>
+            <td>845</td>
+            <td>공지사항</td>
+            <td>[2025 화성메세나] 극단 화성에서 본 지구 <귀달린뱀이 용이라구~용?> (11.12.(수) 10:30)</td>
+            <td>2025.11.07</td>
+          </tr>
+          <tr>
+            <td>844</td>
+            <td>공지사항</td>
+            <td>[동탄복합문화센터] 엄태정 조각전 <낯선자의 포에지> 아티스트 토크 참여자 모집</td>
+            <td>2025.10.31</td>
+          </tr>
+          <tr>
+            <td>843</td>
+            <td>공지사항</td>
+            <td>[2025 모든예술31 화성] 의지도 능력도 딸림 7화음 (선정 예술가 : 김홍기) (10.31.(금) 저녁 8시)</td>
+            <td>2025.10.31</td>
+          </tr>
+          <tr>
+            <td>842</td>
+            <td>공지사항</td>
+            <td>[2025 화성메세나] 박소연 작가 개인전 <숨, breath> (11.8.~11.29.)</td>
+            <td>2025.10.30</td>
+          </tr>
+          <tr>
+            <td>841</td>
+            <td>공지사항</td>
+            <td>2025 정조 효 문화제 사진 공모전 최종 수상자 발표</td>
+            <td>2025.10.27</td>
+          </tr>
+          <tr>
+            <td>840</td>
+            <td>공지사항</td>
+            <td>홈페이지 일시 중지 안내 (10.27 22:00- 10.28 02:00)</td>
+            <td>2025.10.27</td>
+          </tr>
+
+          <!-- 2페이지 -->
+          <tr>
+            <td>839</td>
+            <td>공지사항</td>
+            <td>[2025 화성메세나] 툴뮤직장애인예술단 - &lt;HARMONY:화성&gt; 앨범 발매 및 기념 쇼케이스 (10.27.)
+            </td>
+            <td>2025.10.24</td>
+          </tr>
+          <tr>
+            <td>858</td>
+            <td>공지사항</td>
+            <td>[2025 화성메세나] 박소연작가 개인전 <숨 breath> (10.14.~10.19.)
+            </td>
+            <td>2025.10.24</td>
+          </tr>
+          <tr>
+            <td>857</td>
+            <td>공지사항</td>
+            <td>2025 화성예술지원 성과공유주간 &lt;Palette Days&gt;
+            </td>
+            <td>2025.11.26</td>
+          </tr>
+          <tr>
+            <td>856</td>
+            <td>공지사항</td>
+            <td>[2025 화성메세나] NOW무용단-커뮤니티댄스 <여자이야기> (10.19.)
+            </td>
+            <td>2025.10.24</td>
+          </tr>
+          <tr>
+            <td>855</td>
+            <td>공지사항</td>
+            <td>엄태정 조각전 ‘낯선자의 포에지’ 전시연계 웰니스프로그램 <미술관 요가>
+            </td>
+            <td>2025.11.17</td>
+          </tr>
+          <tr>
+            <td>854</td>
+            <td>공지사항</td>
+            <td>2025 화성 루나 빛 축제 <코스튬 디스코 파티> 모집 마감</td>
+            <td>2025.10.20</td>
+          </tr>
+          <tr>
+            <td>853</td>
+            <td>공지사항</td>
+            <td>2025 화성 루나 빛 축제 <루나 달빛 러닝> _ 코스변경 및 모집마감
+            </td>
+            <td>2025.10.17</td>
+          </tr>
+          <tr>
+            <td>852</td>
+            <td>공지사항</td>
+            <td>화성열린문화예술공간 기획전시 연계 기획교육 <겹겹의 감정 콜라주> 참여자 모집</td>
+            <td>2025.10.17</td>
+          </tr>
+          <tr>
+            <td>851</td>
+            <td>공지사항</td>
+            <td>[2025 화성시 문화정책 포럼] AI·디지털 역량에 기반한 화성시문화관광재단 방향성 모색</td>
+            <td>2025.10.15</td>
+          </tr>
+          <tr>
+            <td>850</td>
+            <td>공지사항</td>
+            <td>2025 찾아가는 공연장 「화성시 문화의날」 주간 거리공연 10월5주 - 동탄 센트럴파크/여울공원</td>
+            <td>2025.10.14</td>
+          </tr>
+          <tr>
+            <td>849</td>
+            <td>공지사항</td>
+            <td>[화성시 예술단 로비콘서트] 어린이와 함께하는 국악 퐁당(11.3.월 11:00)</td>
+            <td>2025.10.13</td>
+          </tr>
+          <tr>
+            <td>848</td>
+            <td>공지사항</td>
+            <td>[화성시 예술단 로비콘서트] 엄마와 아기를 위한 오케스트라(10.20월 11:00)</td>
+            <td>2025.10.13</td>
+          </tr>
+          <tr>
+            <td>847</td>
+            <td>공지사항</td>
+            <td>2025 찾아가는 공연장 「문화의 달」 거리공연 10.11.(토) 14:00 ~ 동탄 센트럴파크</td>
+            <td>2025.19.29</td>
+          </tr>
+          <tr>
+            <td>846</td>
+            <td>공지사항</td>
+            <td>[2025 모든예술31 화성] Spirito 앙상블과 함께하는 베토벤×클림트, 운명의 키스 (선정 예술단체 : 스피리또) (공연 : 10.1.(수) 저녁 7)</td>
+            <td>2025.09.29</td>
+          </tr>
+          <tr>
+            <td>845</td>
+            <td>공지사항</td>
+            <td>[2025 모든예술31 화성] 숨, 어둠속에서 (선정 예술단체 : 빛바이빛) (전시 : 10.15.(수)~10.18.(토))</td>
+            <td>2025.09.26</td>
+          </tr>
+
+          <!-- 3페이지 -->
+          <tr>
+            <td>844</td>
+            <td>공지사항</td>
+            <td>[2025 신진예술인 자립지원] 김나리 &lt;THE COLORS&gt;(10.18. ~10.27.)_홈갤러리
+            </td>
+            <td>2025.09.24</td>
+          </tr>
+          <tr>
+            <td>843</td>
+            <td>공지사항</td>
+            <td>[2025 신진예술인 자립지원] 김류 <퀴베르네테스의 조타수>(10.17. ~10.30.)_엄미술관
+            </td>
+            <td>2025.09.24</td>
+          </tr>
+          <tr>
+            <td>842</td>
+            <td>공지사항</td>
+            <td>[2025 신진예술인 자립지원] 김지민_어제의 새들과 가만히(10.11. ~10.24.)_예술공간 다움
+            </td>
+            <td>2025.09.24</td>
+          </tr>
+          <tr>
+            <td>841</td>
+            <td>공지사항</td>
+            <td>『2025 경기인디뮤직페스티벌 부대행사』 음식판매자동차(푸드트럭) 영업자 선정 안내
+            </td>
+            <td>2025.09.17</td>
+          </tr>
+          <tr>
+            <td>840</td>
+            <td>공지사항</td>
+            <td>[2025 정조대왕능행차 전국 정조 효 퍼레이드: 왕의 길을 따르다] 선정 결과 발표
+            </td>
+            <td>2025.09.15</td>
+          </tr>
+          <tr>
+            <td>839</td>
+            <td>공지사항</td>
+            <td>2025 화성 루나 빛 축제 <코스튬 디스코 파티> 모집 마감</td>
+            <td>2025.10.20</td>
+          </tr>
+          <tr>
+            <td>838</td>
+            <td>공지사항</td>
+            <td> &lt;<우천 예보로 공연이 취소되었습니다.>&gt; 2025 찾아가는 공연장 「화성시 문화의 날」 거리공연 9.24.(수) 19:00 ~ 새솔동 수노을중앙공원
+            </td>
+            <td>2025.09.10</td>
+          </tr>
+          <tr>
+            <td>837</td>
+            <td>공지사항</td>
+            <td>화성열린문화예술공간 기획전시 연계 기획교육 <겹겹의 감정 콜라주> 참여자 모집</td>
+            <td>2025.10.17</td>
+          </tr>
+          <tr>
+            <td>836</td>
+            <td>공지사항</td>
+            <td>[정조효문화제] 체험 프로그램 사전 예약 안내(선착순 마감)</td>
+            <td>2025.09.10</td>
+          </tr>
+          <tr>
+            <td>835</td>
+            <td>공지사항</td>
+            <td>[2025 모든예술31 화성] 9/21(일) 저녁 5시 / 음악동화 '시간이 멈춘 우리 집' (선정 예술단체 : 타래)</td>
+            <td>2025.09.10</td>
+          </tr>
+          <tr>
+            <td>834</td>
+            <td>공지사항</td>
+            <td>[2025 모든예술31 화성] 열망(Aspiration) (선정 예술단체 : 코드세시) (공연 : 9. 13.(토))</td>
+            <td>2025.09.04</td>
+          </tr>
+          <tr>
+            <td>833</td>
+            <td>공지사항</td>
+            <td>[2025 모든예술31 화성] DuO:GK의 그레텔의 미로 (선정 예술단체 : 듀오지케이) (공연 : 9. 4.(목))</td>
+            <td>2025.09.04</td>
+          </tr>
+          <tr>
+            <td>832</td>
+            <td>공지사항</td>
+            <td>
+              <2025 라이징스타를 찾아라> 현장 경연 (9/6)
+            </td>
+            <td>2025.09.01</td>
+          </tr>
+          <tr>
+            <td>831</td>
+            <td>공지사항</td>
+            <td>2025 정조대왕 능행차 [화성구간] 시민행렬단 모집</td>
+            <td>2025.09.01</td>
+          </tr>
+          <tr>
+            <td>830</td>
+            <td>공지사항</td>
+            <td>행사 <노작미로, 가을에 스며들다> 9월 13일(토), 10월 18(일) 홍사용 문화거리 개최</td>
+            <td>2025.08.29</td>
+          </tr>
+
+          <!-- 4페이지 -->
+          <tr>
+            <td>829</td>
+            <td>공지사항</td>
+            <td>2025 정조효문화제 [현륭원 천원] 시민행렬단 모집
+            </td>
+            <td>2025.08.29</td>
+          </tr>
+          <tr>
+            <td>828</td>
+            <td>공지사항</td>
+            <td>[2025 정조대왕능행차 전국 정조 효 퍼레이드: 왕의 길을 따르다] 참가자 모집
+            </td>
+            <td>2025.08.29</td>
+          </tr>
+          <tr>
+            <td>827</td>
+            <td>공지사항</td>
+            <td>[2025 모든예술31 화성] 풍덩실 제부樂 (선정 예술단체 : 잇고동하다) (전시 : 8. 30. ~ 9. 14.)
+            </td>
+            <td>2025.08.25</td>
+          </tr>
+          <tr>
+            <td>826</td>
+            <td>공지사항</td>
+            <td>[2025 신진예술인 자립지원] 박윤정_춘향전 사랑의 서사 (9.21. 오후 6시)_누림아트홀
+            </td>
+            <td>2025.08.22</td>
+          </tr>
+          <tr>
+            <td>825</td>
+            <td>공지사항</td>
+            <td>[2025 신진예술인 자립지원] 박현정 동요로 만드는 세상 (9.7. 17:00)_반석아트홀
+            </td>
+            <td>2025.08.19</td>
+          </tr>
+          <tr>
+            <td>824</td>
+            <td>공지사항</td>
+            <td>[라이징스타를 찾아라] 현장경연 사전 관람객 모집</td>
+            <td>2025.08.18</td>
+          </tr>
+          <tr>
+            <td>823</td>
+            <td>공지사항</td>
+            <td>2025 동탄복합문화센터 기획전시 <겹쳐진 자리> 특별 연계프로그램 “팔랑, 모빌 만들기” 참여자 모집
+            </td>
+            <td>2025.08.18</td>
+          </tr>
+          <tr>
+            <td>822</td>
+            <td>공지사항</td>
+            <td>동탄복합문화센터 야외 조각작품 재배치 시민 의견 설문조사</td>
+            <td>2025.08.16</td>
+          </tr>
+          <tr>
+            <td>821</td>
+            <td>공지사항</td>
+            <td>[정조효문화제] 체험 프로그램 사전 예약 안내(선착순 마감)</td>
+            <td>2025.09.10</td>
+          </tr>
+          <tr>
+            <td>820</td>
+            <td>공지사항</td>
+            <td>2025 찾아가는 공연장 거리공연 「화성시 문화의 날」 8.27.(수) 19:00 ~ 새솔동 수노을중앙공원</td>
+            <td>2025.08.13
+            </td>
+          </tr>
+          <tr>
+            <td>819</td>
+            <td>공지사항</td>
+            <td>2025 라이징스타를 찾아라 TOP10 발표</td>
+            <td>2025.08.13</td>
+          </tr>
+          <tr>
+            <td>818</td>
+            <td>공지사항</td>
+            <td>[2025 화성메세나] 섬굿-Somewhere Between Islands</td>
+            <td>2025.08.12</td>
+          </tr>
+          <tr>
+            <td>817</td>
+            <td>공지사항</td>
+            <td>[2025 화성메세나] 광복80주년 기념 피아노 페스티벌 ‘ 아리랑의 선율’</td>
+            <td>2025.08.12</td>
+          </tr>
+          <tr>
+            <td>816</td>
+            <td>공지사항</td>
+            <td>[공모전] 2025 여름 화성 여행 숏폼 ·사진 공모전 최종 수상자 발표</td>
+            <td>2025.08.11</td>
+          </tr>
+          <tr>
+            <td>830</td>
+            <td>공지사항</td>
+            <td>
+              <2025 라이징스타를 찾아라> 시민평가단 100인을 모집합니다 (~8.14까지)
+            </td>
+            <td>2025.08.08</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- 페이지네이션 -->
+      <div class="pagination">
+        <div class="prev">
+          <i class="fas fa-angle-left"></i>
+        </div>
+        <ol id="numbers">
+          <!--   <li><a href="" class="active">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li> -->
+        </ol>
+        <div class="next">
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 탑버튼 -->
+  <button class="top_btn" aria-label="맨위로 이동">
+    <i class="fas fa-arrow-up"></i>TOP
+  </button>
+  <!-- 푸터 -->
+  <footer id="footer">
+    <!-- wave -->
+    <!-- 그라데이션 배경 -->
+    <div class="footer-bg"></div>
+    <!-- 물결 레이어 3겹 -->
+    <div class="wave_wrap">
+      <svg class="wave wave-1" viewBox="0 0 1440 200" preserveAspectRatio="none">
+        <path
+          d="M0 125L34.3 124.2C68.7 123.3 137.3 121.7 205.8 124.5C274.3 127.3 342.7 134.7 411.2 143C479.7 151.3 548.3 160.7 617 167.5C685.7 174.3 754.3 178.7 823 171.5C891.7 164.3 960.3 145.7 1028.8 140.8C1097.3 136 1165.7 145 1234.2 149.3C1302.7 153.7 1371.3 153.3 1405.7 153.2L1440 153L1440 201L1405.7 201C1371.3 201 1302.7 201 1234.2 201C1165.7 201 1097.3 201 1028.8 201C960.3 201 891.7 201 823 201C754.3 201 685.7 201 617 201C548.3 201 479.7 201 411.2 201C342.7 201 274.3 201 205.8 201C137.3 201 68.7 201 34.3 201L0 201Z"
+          stroke-linecap="round" stroke-linejoin="miter"></path>
+      </svg>
+      <svg class="wave wave-2" viewBox="0 0 1440 200" preserveAspectRatio="none">
+        <path
+          d="M0 177L34.3 171.5C68.7 166 137.3 155 205.8 153C274.3 151 342.7 158 411.2 165.2C479.7 172.3 548.3 179.7 617 182C685.7 184.3 754.3 181.7 823 175.3C891.7 169 960.3 159 1028.8 153C1097.3 147 1165.7 145 1234.2 139.3C1302.7 133.7 1371.3 124.3 1405.7 119.7L1440 115L1440 201L1405.7 201C1371.3 201 1302.7 201 1234.2 201C1165.7 201 1097.3 201 1028.8 201C960.3 201 891.7 201 823 201C754.3 201 685.7 201 617 201C548.3 201 479.7 201 411.2 201C342.7 201 274.3 201 205.8 201C137.3 201 68.7 201 34.3 201L0 201Z"
+          stroke-linecap="round" stroke-linejoin="miter"></path>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer_contents">
+        <div class="footer_left">
+          <div class="logo">
+            <img src="image/Logo_hwaseong_white.png" alt="로고 이미지">
+          </div>
+          <div class="wrap">
+            <ul class="footer_policy">
+              <li><a href="#none">개인정보처리방침</a></li>
+              <li><a href="#none">이용약관</a></li>
+              <li><a href="#none">이메일주소무단수집거부</a></li>
+              <li><a href="#none">고객서비스현장</a></li>
+              <li><a href="#none">조례및규정</a></li>
+              <li><a href="#none">클린신고센터</a></li>
+              <li><a href="#none">부패신고센터</a></li>
+            </ul>
+            <p class="footer_address">주소 : (18459) 경기도 화성시 노작로 134</p>
+            <ul class="footer_info">
+              <li>사업자등록번호: 124-82-17346</li>
+              <li>TEL : 031-8015-8100</li>
+              <li>FAX : 031-8015-8129</li>
+              <li>Email : webmaster@hcf.or.kr</li>
+            </ul>
+            <p class="footer_copyright">copyright (C) 2018.화성시문화재단.All right.reserved</p>
+          </div>
+        </div>
+        <div class="footer_right">
+          <img src="image/Web_accessibility.png" alt="WEB 접근성 이미지">
+          <div class="footer_right_content">
+            <div class="footer_help_box">
+              <div class="help_ment">
+                <i class="fas fa-phone-volume"></i>
+                <p>도와드릴까요?</p>
+              </div>
+              <ul class="help_callNumber">
+                <li>TEL : 031-8015-8100</li>
+                <li>FAX : 031-8015-8129</li>
+              </ul>
+            </div>
+            <div class="footer_family">
+              <div class="family_toggle">
+                <p>패밀리사이트</p>
+                <i class="fas fa-angle-down"></i>
+              </div>
+              <ul class="family_list">
+                <li><a href="#none">아트홀</li></a>
+                <li><a href="#none">생활문화센터</li></a>
+                <li><a href="#none">미디어센터</li></a>
+                <li><a href="#none">시립도서관</li></a>
+                <li><a href="#none">동탄복합문화센터</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=mait3oqs9w"></script>
+  <!-- <script src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=mait3oqs9w"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="js/sub2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,2821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 리셋 -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- 스와이퍼,폰트어썸 cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 공통클래스 -->
+  <link rel="stylesheet" href="css/common.css">
+  <!-- 스타일css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="m_menu_open active">
+  <!-- 포트폴리오 안내 팝업창 -->
+  <!-- 어두운 오버레이 배경 -->
+  <div class="dimmed"></div>
+  <div class="gradient_wrap">
+    <div class="popup_close_btn"></div>
+    <div class="popup">
+      <!-- 제목 -->
+      <h2 class="portfolio_guide_title">포트폴리오를 보기 전 안내입니다.</h2>
+
+      <!-- Q&A -->
+      <div class="QnA">
+        <ul>
+          <li>
+            <span class="question label">Q.</span>
+            <span class="question text">작업페이지는?</span>
+          </li>
+          <li>
+            <span class="answer label">A.</span>
+            <span class="answer txet">메인페이지, 서브페이지 3개로 총합 4개 입니다.</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span class="question label">Q.</span>
+            <span class="question text">리뉴얼 이유는?</span>
+          </li>
+          <li>
+            <span class="answer label">A.</span>
+            <span class="answer text">기존 사이트의 콘텐츠들이 정적인 것이 주이고,<br>
+              “문화관광”이란 타이틀에 비해 약하다고 판단되어 리뉴얼 하게되었습니다.</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span class="question label">Q.</span>
+            <span class="question text">기여한 부분은?</span>
+          </li>
+          <li>
+            <span class="answer label">A.</span>
+            <span class="answer text">디자인 100%, 개발 100%</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 클릭 유도 아이콘 설명 -->
+      <div class="cta_icon_desc">
+        <div class="click_icons">
+          <img src="image/click_icon.png" alt="클릭 유도 아이콘" class="click_icon01">
+          <div class="click_icon02"></div>
+        </div>
+        <p class="desc">해당 아이콘은 서브페이지가 연결된 링크를 보여주기 위한 클릭 유도 아이콘 입니다.</p>
+      </div>
+
+      <!-- 리뉴얼 전후 사진 -->
+      <div class="renewal_beforeAfter">
+        <div class="before">
+          <span>리뉴얼 전</span>
+          <img src="image/renewal_before.png" alt="리뉴얼 전">
+        </div>
+        <div class="after">
+          <span>리뉴얼 후</span>
+          <img src="image/renewal_after.png" alt="리뉴얼 후">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 헤더 -->
+  <header id="header">
+    <div class="top_menu">
+      <ul class="family_gnb">
+        <li>
+          <a href="#none">
+            통합복합문화센터
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            시립도서관
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            미디어센터
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            생활문화센터
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            아트홀
+          </a>
+        </li>
+      </ul>
+      <div class="m_menu_img">
+        <img src="image/coriyo.png" alt="코리요 사진">
+      </div>
+      <ul class="user_menu">
+        <li>
+          <a href="#none">
+            로그인
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            회원가입
+          </a>
+        </li>
+        <li>
+          <a href="#none">
+            예술인DB
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="header-main top_container">
+      <div class="main_logo">
+        <a href="index.html">
+          <div class="img"></div>
+        </a>
+      </div>
+      <div class="all_menu_wrap">
+        <nav class="nav">
+          <div class="hamburger_nav">
+            <button class="hamburger_btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="lnb_list">
+              <ul class="lnb event">
+                <li><a href="sub3.html" class="click">전체일정</a></li>
+                <li><a href="#none">공연</a></li>
+                <li><a href="#none">전시</a></li>
+                <li><a href="#none">축제</a></li>
+                <li><a href="#none">기타행사</a></li>
+                <li><a href="#none">기타일정</a></li>
+              </ul>
+              <ul class="lnb cultural_business">
+                <li><a href="#none">문화자치시민협의체</a></li>
+                <li><a href="#none">지역예술지원</a></li>
+                <li><a href="#none">문화공간</a></li>
+                <li><a href="sub1.html" class="click">관광지 소개</a></li>
+                <li><a href="#none">문화활성화</a></li>
+                <li><a href="#none">찾아가는 공연장</a></li>
+                <li><a href="#none">시민문화사업</a></li>
+                <li><a href="#none">화성시예술단</a></li>
+              </ul>
+              <ul class="lnb education">
+                <li><a href="#none">시립도서관프로그램</a></li>
+                <li><a href="#none">스포츠</a></li>
+                <li><a href="#none">맞춤형미디어교육</a></li>
+                <li><a href="#none">생활문화교육</a></li>
+                <li><a href="#none">화성시축제기획학교</a></li>
+              </ul>
+              <ul class="lnb archiving">
+                <li><a href="#none">사진</a></li>
+                <li><a href="#none">보고서</a></li>
+                <li><a href="#none">웹진</a></li>
+                <li><a href="#none">문화공간지도</a></li>
+                <li><a href="#none">관광지도</a></li>
+                <li><a href="#none">예술인DB</a></li>
+              </ul>
+              <ul class="lnb alarm">
+                <li><a href="sub2.html" class="click">공지사항</a></li>
+                <li><a href="#none">채용정보</a></li>
+                <li><a href="#none">공고</a></li>
+                <li><a href="#none">보도자료</a></li>
+                <li><a href="#none">외부공모안내</a></li>
+              </ul>
+              <ul class="lnb management">
+                <li><a href="#none">정보공개</a></li>
+                <li><a href="#none">ESG경영</a></li>
+                <li><a href="#none">윤리경영</a></li>
+                <li><a href="#none">클린신고센터</a></li>
+                <li><a href="#none">조례및규정</a></li>
+                <li><a href="#none">고객의소리</a></li>
+              </ul>
+              <ul class="lnb aboutUs">
+                <li><a href="#none">인사말</a></li>
+                <li><a href="#none">비전및사업소개</a></li>
+                <li><a href="#none">인권경영</a></li>
+                <li><a href="#none">연혁</a></li>
+                <li><a href="#none">CI</a></li>
+                <li><a href="#none">조직구성</a></li>
+                <li><a href="#none">부서별전화번호</a></li>
+                <li><a href="#none">오시는길</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav_gnb_wrap">
+            <ul class="nav_gnb">
+              <li>
+                <a href="#none" class="has_sub first" data-target="gnb01">공연·전시·행사</a>
+                <ul class="lnb event">
+                  <li><a href="sub3.html" class="click">전체일정</a></li>
+                  <li><a href="#none">공연</a></li>
+                  <li><a href="#none">전시</a></li>
+                  <li><a href="#none">축제</a></li>
+                  <li><a href="#none">기타행사</a></li>
+                  <li><a href="#none">기타일정</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub" data-target="gnb02">문화사업</a>
+                <ul class="lnb cultural_business">
+                  <li><a href="#none">문화자치시민협의체</a></li>
+                  <li><a href="#none">지역예술지원</a></li>
+                  <li><a href="#none">문화공간</a></li>
+                  <li><a href="sub1.html" class="click">관광지 소개</a></li>
+                  <li><a href="#none">문화활성화</a></li>
+                  <li><a href="#none">찾아가는 공연장</a></li>
+                  <li><a href="#none">시민문화사업</a></li>
+                  <li><a href="#none">화성시예술단</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub education" data-target="gnb03">교육</a>
+                <ul class="lnb education">
+                  <li><a href="#none">시립도서관프로그램</a></li>
+                  <li><a href="#none">스포츠</a></li>
+                  <li><a href="#none">맞춤형미디어교육</a></li>
+                  <li><a href="#none">생활문화교육</a></li>
+                  <li><a href="#none">화성시축제기획학교</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub" data-target="gnb04">아카이브</a>
+                <ul class="lnb archiving">
+                  <li><a href="#none">사진</a></li>
+                  <li><a href="#none">보고서</a></li>
+                  <li><a href="#none">웹진</a></li>
+                  <li><a href="#none">문화공간지도</a></li>
+                  <li><a href="#none">관광지도</a></li>
+                  <li><a href="#none">예술인DB</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub" data-target="gnb05">재단소식</a>
+                <ul class="lnb alarm">
+                  <li><a href="sub2.html" class="click">공지사항</a></li>
+                  <li><a href="#none">채용정보</a></li>
+                  <li><a href="#none">공고</a></li>
+                  <li><a href="#none">보도자료</a></li>
+                  <li><a href="#none">외부공모안내</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub" data-target="gnb06">재단경영</a>
+                <ul class="lnb management">
+                  <li><a href="#none">정보공개</a></li>
+                  <li><a href="#none">ESG경영</a></li>
+                  <li><a href="#none">윤리경영</a></li>
+                  <li><a href="#none">클린신고센터</a></li>
+                  <li><a href="#none">조례및규정</a></li>
+                  <li><a href="#none">고객의소리</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none" class="has_sub last" data-target="gnb07">재단소개</a>
+                <ul class="lnb aboutUs">
+                  <li><a href="#none">인사말</a></li>
+                  <li><a href="#none">비전및사업소개</a></li>
+                  <li><a href="#none">인권경영</a></li>
+                  <li><a href="#none">연혁</a></li>
+                  <li><a href="#none">CI</a></li>
+                  <li><a href="#none">조직구성</a></li>
+                  <li><a href="#none">부서별전화번호</a></li>
+                  <li><a href="#none">오시는길</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="search_tab_wrap">
+          <div class="search_tab">
+            <input type="text" placeholder="검색어를 입력해주세요.">
+            <button class="search_btn">
+              <a href="#none">
+                <i class="fas fa-search"></i>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 모바일메뉴 -->
+  <div class="mobail_menu">
+    <div class="mobail_menu_lift">
+      <ul class="mobail_gnb_tab">
+        <li data-target="m_menu01" class="m_gnb_tab active">공연·전시·행사</li>
+        <li data-target="m_menu02" class="m_gnb_tab">문화사업</li>
+        <li data-target="m_menu03" class="m_gnb_tab">교육</li>
+        <li data-target="m_menu04" class="m_gnb_tab">아카이브</li>
+        <li data-target="m_menu05" class="m_gnb_tab">재단소식</li>
+        <li data-target="m_menu06" class="m_gnb_tab">재단경영</li>
+        <li data-target="m_menu07" class="m_gnb_tab">재단소개</li>
+      </ul>
+    </div>
+    <div class="mobail_menu_right">
+      <ul class="m_lnb m_event active" id="m_menu01">
+        <li><a href="#none">전체일정</a></li>
+        <li><a href="#none">공연</a></li>
+        <li><a href="#none">전시</a></li>
+        <li><a href="#none">축제</a>
+          <ul class="depth">
+            <li><a href="#none">화성 뱃놀이 축제</a></li>
+            <li><a href="#none">정조 효 문화제/정조대왕 능행차</a></li>
+            <li><a href="#none">화성루나빛축제</a></li>
+            <li><a href="#none">병점문화축제</a></li>
+            <li><a href="#none">가족사랑축제</a></li>
+            <li><a href="#none">품앗이 공연예술축제</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">기타행사</a></li>
+        <li><a href="#none">기타일정</a></li>
+      </ul>
+      <ul class="m_lnb m_cultural_business" id="m_menu02">
+        <li><a href="#none">문화자치시민협의체</a></li>
+        <li><a href="#none">지역예술지원</a>
+          <ul class="depth">
+            <li><a href="#none">예술활동지원사업</a></li>
+            <li><a href="#none">꿈의 무용단 화성</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">문화공간</a></li>
+        <li><a href="#none">관광지 소개</a></li>
+        <li><a href="#none">문화활성화</a>
+          <ul class="depth">
+            <li><a href="#none">생활문화동호회활성화</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">찾아가는 공연장</a></li>
+        <li><a href="#none">시민문화사업</a>
+          <ul class="depth">
+            <li><a href="#none">화성예술플랫폼</a></li>
+            <li><a href="#none">코리요홍보사업</a></li>
+            <li><a href="#none">라이징스타를 찾아</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">화성시예술단</a></li>
+      </ul>
+      <ul class="m_lnb m_education" id="m_menu03">
+        <li><a href="#none">시립도서관프로그램</a></li>
+        <li><a href="#none">스포츠</a></li>
+        <li><a href="#none">맞춤형미디어교육</a></li>
+        <li><a href="#none">생활문화교육</a></li>
+        <li><a href="#none">화성시축제기획학교</a></li>
+      </ul>
+      <ul class="m_lnb m_archiving" id="m_menu04">
+        <li><a href="#none">사진</a></li>
+        <li><a href="#none">보고서</a></li>
+        <li><a href="#none">웹진</a>
+          <ul class="depth">
+            <li><a href="#none">화분</a></li>
+            <li><a href="#none">풍경</a></li>
+            <li><a href="#none">감상여행</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">문화공간지도</a></li>
+        <li><a href="#none">관광지도</a></li>
+        <li><a href="#none">예술인DB</a></li>
+      </ul>
+      <ul class="m_lnb m_alarm" id="m_menu05">
+        <li><a href="#none">공지사항</a></li>
+        <li><a href="#none">채용정보</a></li>
+        <li><a href="#none">공고</a></li>
+        <li><a href="#none">보도자료</a></li>
+        <li><a href="#none">외부공모안내</a></li>
+      </ul>
+      <ul class="m_lnb m_management" id="m_menu06">
+        <li><a href="#none">정보공개</a>
+          <ul class="depth">
+            <li><a href="#none">행정 정보 공표 목록</a></li>
+            <li><a href="#none">예 · 결산 및 운영 계획</a></li>
+            <li><a href="#none">운영 인력 및 인건비</a></li>
+            <li><a href="#none">업무추진비</a></li>
+            <li><a href="#none">이사회</a></li>
+            <li><a href="#none">수의계약</a></li>
+            <li><a href="#none">축제 관련</a></li>
+            <li><a href="#none">기타 공개</a></li>
+            <li><a href="#none">복리후생</a></li>
+            <li><a href="#none">정보 공개</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">ESG경영</a></li>
+        <li><a href="#none">윤리경영</a>
+          <ul class="depth">
+            <li><a href="#none">임직원 행동강령</a></li>
+            <li><a href="#none">청탁금지법 위반 신고</a></li>
+            <li><a href="#none">부패행위 신고</a></li>
+            <li><a href="#none">행동강령 위반 신고</a></li>
+            <li><a href="#none">공익신고</a></li>
+            <li><a href="#none">고객서비스 현장</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">클린신고센터</a></li>
+        <li><a href="#none">조례및규정</a>
+          <ul class="depth">
+            <li><a href="#none">운영조례</a></li>
+            <li><a href="#none">동탄복합문화센터 운영 조례</a></li>
+            <li><a href="#none">도서관 운영 조례</a></li>
+            <li><a href="#none">화성시문화관광재단 정관</a></li>
+            <li><a href="#none">이사회 운영규정</a></li>
+            <li><a href="#none">재단 규정</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">고객의소리</a></li>
+      </ul>
+      <ul class="m_lnb m_aboutUs" id="m_menu07">
+        <li><a href="#none">인사말</a></li>
+        <li><a href="#none">비전및사업소개</a></li>
+        <li><a href="#none">인권경영</a>
+          <ul class="depth">
+            <li><a href="#none">CEO 인권경영 메세지</a></li>
+            <li><a href="#none">인권 경영 선언문</a></li>
+            <li><a href="#none">인권 경영 내규</a></li>
+            <li><a href="#none">인권침해 구제방법 및 절차</a></li>
+            <li><a href="#none">인권 경영 활동</a></li>
+          </ul>
+        </li>
+        <li><a href="#none">연혁</a></li>
+        <li><a href="#none">CI</a></li>
+        <li><a href="#none">조직구성</a></li>
+        <li><a href="#none">부서별전화번호</a></li>
+        <li><a href="#none">오시는길</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 메인비주얼 -->
+  <section id="mainVisual">
+    <div class="top_container">
+      <div class="wrap">
+        <div class="swiper hero_event_swiper" id="event">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_01.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_02.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_03.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_04.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_05.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_06.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_07.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_08.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_09.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/Main_visual_10.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper_controls">
+          <div class="hero_event_swiper-pagination"></div>
+          <div class="swiper-button-pause" data-swiper="event">
+            <i class="fa-solid fa-pause"></i>
+          </div>
+          <div class="hero_event_swiper-button-prev">
+            <i class="fas fa-angle-left"></i>
+          </div>
+          <div class="hero_event_swiper-button-next">
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- 공지스와이퍼 -->
+      <div class="wrap">
+        <div class="swiper hero_notice_swiper" id="notice">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/test01.png" alt="수영장 예시 무료 이미지">
+                <div class="slide_text_box">
+                  <p class="slide_info">
+                    ※ 개편된 프로그램은 2026년 1월부터 운영될 예정입니다.
+                  </p>
+                  <h4 class="slide_title">수영 및 GX프로그램 개편 안내</h4>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/notice02.png" alt="동탄복합문화센터 열람실 예시 무료이미지">
+                <div class="slide_text_box">
+                  <p class="slide_info">
+                    ※ 휴관일은 2025년 12월부터 적용됩니다. (11월은 전일 운영)<br>
+                    ※ 화성동탄중앙도서관 휴관일: 2,4번째 월요일, 법정공휴일
+                  </p>
+                  <h4 class="slide_title">동탄복합문화센터 열람실 운영 재개</h4>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/notice03.png" alt="엄태정 조각전 <낯선자의 포에지> 이미지">
+                <div class="slide_text_box">
+                  <p class="slide_info">
+                    ※ 참여가 어려운 경우, 반드시 사전에 연락 부탁드립니다.
+                  </p>
+                  <h4 class="slide_title">엄태정 조각전 <낯선자의 포에지><br>아티스트 토크 참여자 모집</h4>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/notice04.png" alt="2025 정조 효 문화제 이미지">
+                <div class="slide_text_box">
+                  <p class="slide_info">
+                    ※ 공모전 최종 수상 결과를 안내드립니다.
+                  </p>
+                  <h4 class="slide_title">2025 정조 효 문화제 사진 공모전<br>최종 수상자 발표</h4>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="image/notice05.png" alt="동탄복합문화센터 이미지">
+                <div class="slide_text_box">
+                  <p class="slide_info">
+                    ※ 작업에 따라 시간은 변경될수 있습니다.
+                  </p>
+                  <h4 class="slide_title">동탄복합문화센터 홈페이지 일시 중지 안내</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper_controls">
+          <div class="hero_notice_swiper-pagination"></div>
+          <div class="swiper-button-pause" data-swiper="notice">
+            <i class="fa-solid fa-pause"></i>
+          </div>
+          <div class="hero_notice_swiper-button-prev">
+            <i class="fas fa-angle-left"></i>
+          </div>
+          <div class="hero_notice_swiper-button-next">
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- 행사안내 -->
+  <section id="eventGuide">
+    <div class="container">
+      <div class="click_cursor">
+        <img src="image/click_icon.png" alt="클릭 유도 이미지">
+      </div>
+      <div class="title">
+        <h2 class="main_title">행사 안내</h2>
+        <h3 class="sub_title">지금 진행중인 문화행사를 확인해보세요</h3>
+      </div>
+      <div class="swiper eventSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail01.png" alt="병점문화축제의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">병점문화축제</h4>
+                <p class="event_date">2025.11.22 ~ 2025.11.22</p>
+                <p class="event_place">병점 맛남 광장</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail02.png" alt="틸틸과 미틸의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">틸틸과 미틸</h4>
+                <p class="event_date">2025.11.21 ~ 2025.11.21</p>
+                <p class="event_place">화성아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail03.png" alt="미술관 요가의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">미술관 요가</h4>
+                <p class="event_date">2025.11.21 ~ 2025.11.30</p>
+                <p class="event_place">동탄아트스페이스(스퀘어)</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail04.png" alt="청고래 밴드의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">뮤지컬 <청고래 밴드>
+                </h4>
+                <p class="event_date">2025.11.21 ~ 2025.11.22</p>
+                <p class="event_place">화성시어린이문화센터</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail05.png" alt="홍난파합창단 정기연주회의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">홍난파합창단 정기연주회</h4>
+                <p class="event_date">2025.11.16 ~ 2025.11.16</p>
+                <p class="event_place">누림아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail06.png" alt="THE DAYS Ⅱ의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">THE DAYS Ⅱ</h4>
+                <p class="event_date">2025.11.13 ~ 2025.11.13</p>
+                <p class="event_place">반석아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail07.png" alt="동탄루나 Piano Festival의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">Piano Festival</h4>
+                <p class="event_date">2025.11.12 ~ 2025.11.12</p>
+                <p class="event_place">반석아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail08.png" alt="음악을그리다 MusicArt의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">음악을그리다 MusicArt.</h4>
+                <p class="event_date">2025.11.11 ~ 2025.11.11</p>
+                <p class="event_place">화성아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail09.png" alt="눈으로 담는 기억 : 흑ㆍ백 건반 위의 무의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">눈으로 담는 기억</h4>
+                <p class="event_date">2025.11.11 ~ 2025.11.11</p>
+                <p class="event_place">반석아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail10.png" alt="연희 : vibe의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">연희 : vibe</h4>
+                <p class="event_date">2025.11.09 ~ 2025.11.09</p>
+                <p class="event_place">누림아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail11.png" alt="숨, breath의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">숨, breath</h4>
+                <p class="event_date">2025.11.08 ~ 2025.11.29</p>
+                <p class="event_place">반도문화재단 아이비라운지 갤러리</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail12.png" alt="화성시 합창 페스티벌의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">화성시 합창 페스티벌</h4>
+                <p class="event_date">2025.11.08 ~ 2025.11.09</p>
+                <p class="event_place">반석아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail13.png" alt="윤복희콘서트의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">윤복희 콘서트</h4>
+                <p class="event_date">2025.11.08 ~ 2025.11.08</p>
+                <p class="event_place">화성아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item">
+              <a href="#none">
+                <div class="img_box">
+                  <img src="image/Event_thumbnail14.png" alt="지브리 영화 음악 콘서트의 사진">
+                  <span class="hover_more">더보기 +</span>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <h4 class="event_name">지브리 영화 음악 콘서트</h4>
+                <p class="event_date">2025.11.07 ~ 2025.11.07</p>
+                <p class="event_place">누림아트홀</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="event_Item allViewWrap">
+              <a href="#none">
+                <div class="img_box">
+                  <div class="black_img">
+                    <h4 class="view_all">VIEW-ALL</h4>
+                  </div>
+                </div>
+              </a>
+              <div class="info_textBox">
+                <p class="more_desc">더 많은 문화 행사 보기</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="eventSwiper_btn_wrap">
+        <div class="button-prev-wrap">
+          <div class="eventSwiper-button-prev"><i class="fas fa-angle-left"></i></div>
+        </div>
+        <div class="button-next-wrap">
+          <div class="eventSwiper-button-next"><i class="fas fa-angle-right"></i></div>
+        </div>
+      </div>
+      <a href="sub3.html" class="cta_btn">
+        <img src="image/CTA_btn.png" alt="행사 안내 더보기 버튼 이미지" class="diagram">
+        <span>행사 안내 더보기</span>
+        <div class="arrow"></div>
+      </a>
+    </div>
+  </section>
+  <!-- 자주찾는서비스 -->
+  <section id="quickService">
+    <div class="container">
+      <div class="title">
+        <h2 class="main_title">자주 찾는 서비스</h2>
+        <h3 class="sub_title">로그인 후 이용하실 수 있는 서비스를 확인해보시길 바랍니다.</h3>
+      </div>
+      <div class="QuickSwiper_wrap">
+        <div class="swiper QuickSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#none" class="quickItem">
+                <div class="box"><i class="fa-solid fa-clipboard-check"></i></div>
+                <span class="label">대관신청</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none" class="quickItem">
+                <div class="box"><i class="fas fa-route"></i></div>
+                <span class="label">오시는 길</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none" class="quickItem">
+                <div class="box"><i class="fas fa-phone"></i></div>
+                <span class="label">부서별 전화번호</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none" class="quickItem">
+                <div class="box"><i class="fas fa-bullhorn"></i></div>
+                <span class="label">채용공고</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none" class="quickItem">
+                <div class="box"><i class="fas fa-comments"></i></div>
+                <span class="label">고객의소리</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none" class="quickItem">
+                <div class="box"><i class="fas fa-question-circle"></i></div>
+                <span class="label">Q &amp; A</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none" class="quickItem">
+                <div class="box"><i class="fas fa-paint-brush"></i></div>
+                <span class="label">예술지원</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none" class="quickItem">
+                <div class="box"><i class="fas fa-images"></i></div>
+                <span class="label">사진</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="QuickSwiper_btn_wrap">
+      <div class="button-prev-wrap">
+        <div class="QuickSwiper-button-prev"><i class="fas fa-angle-left"></i></div>
+      </div>
+      <div class="QuickSwiper-next-wrap">
+        <div class="QuickSwiper-button-next"><i class="fas fa-angle-right"></i></div>
+      </div>
+    </div>
+  </section>
+  <!-- 관광지 소개 -->
+  <section id="tourGuide">
+    <div class="container">
+      <div class="click_cursor">
+        <img src="image/click_icon.png" alt="클릭 유도 이미지">
+      </div>
+      <div class="title">
+        <div class="main_title">관광지 소개</div>
+        <div class="sub_title">화성의 대표 관광 명소를 소개합니다.</div>
+      </div>
+      <div class="wrap">
+        <!-- 왼쪽 -->
+        <div class="left">
+          <div class="swiper tourSpotSwiper">
+            <div class="swiper-wrapper">
+              <!-- slide 1 -->
+              <div class="swiper-slide">
+                <a href="sub1.html">
+                  <img src="image/tour01.png" alt="제부도의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">제부도</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기도 화성시 서신면 제부리 </div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>1577-4200</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>썰물 때만 차량 통행이 가능한 독특한 해안 마을</span>
+                      <span>#전망대</span>
+                      <span>#일몰 명소</span>
+                      <span>#바닷길 드라이브 코스</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- slide 2 -->
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="image/tour02.png" alt="무봉산자연휴양림의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">무봉산자연휴양림</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기도 화성시 동탄순환대로24길 185</div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>031-373-1162</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>울창한 숲에서 휴식과 숙박을 즐길 수 있는 자연 휴양 공간</span>
+                      <span>#자연휴양림</span>
+                      <span>#숲속힐링</span>
+                      <span>#산림관광</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- slide 3 -->
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="image/tour03.jpg" alt="궁평항의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">궁평항</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기 화성시 서신면 궁평항로 1049-24</div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>031-356-7339</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>서해의 낙조와 어촌 풍경을 만날 수 있는 해안 항구</span>
+                      <span>#서해안관광</span>
+                      <span>#항구풍경</span>
+                      <span>#노을명소</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- slide 4 -->
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="image/tour04.jpg" alt="공룡알화석산지의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">공룡알화석산지</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기 화성시 송산면 공룡로 659</div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>031-357-3951</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>공룡알 화석이 발견된 국내 대표 자연유산</span>
+                      <span>#자연유산</span>
+                      <span>#지질명소</span>
+                      <span>#공룡화석</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- slide 5 -->
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="image/tour05.png" alt="융건릉의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">융건릉</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기 화성시 효행로481번길 21</div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>031-222-0142</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>조선 왕실의 역사를 간직한 유네스코 세계문화유산</span>
+                      <span>#세계문화유산</span>
+                      <span>#왕릉관광</span>
+                      <span>#역사문화</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- slide 6 -->
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="image/tour06.jpg" alt="용주사의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">용주사</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기 화성시 송산동 187-2</div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>031-234-0040</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>정조의 효심이 깃든 전통 사찰</span>
+                      <span>#전통사찰</span>
+                      <span>#불교문화</span>
+                      <span>#역사명소</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- slide 7 -->
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="image/tour07.jpg" alt="서해랑 케이블카의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">서해랑 케이블카</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기 화성시 서신면 전곡항로 1-10</div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>1833-4997</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>서해 바다를 조망하는 해상 케이블카</span>
+                      <span>#케이블카</span>
+                      <span>#서해전망</span>
+                      <span>#체험관광</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- slide 8 -->
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="image/tour08.png" alt="우리꽃식물원의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">우리꽃식물원</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기 화성시 팔탄면 3.1만세로 777-17</div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>031-5189-6160</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>우리나라 자생 식물을 만날 수 있는 식물원</span>
+                      <span>#자생식물</span>
+                      <span>#생태체험</span>
+                      <span>#자연학습</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- slide 9 -->
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="image/tour09.jpg" alt="역사박물관의 사진">
+                  <div class="slide-overlay">
+                    <div class="top-info">
+                      <div class="place-info">
+                        <span class="place-title">역사박물관</span>
+                        <span class="rate">★ 4.26</span>
+                      </div>
+                      <div class="contact-info-wrap">
+                        <div class="contact-info"><i class="fa-solid fa-location-dot"></i>경기 화성시 향남읍 행정동로 96</div>
+                        <div class="contact-info"><i class="fa-solid fa-phone"></i>031-5189-7038</div>
+                      </div>
+                    </div>
+                    <div class="hashtags">
+                      <span>화성의 역사와 문화를 소개하는 박물관</span>
+                      <span>#지역역사</span>
+                      <span>#문화전시</span>
+                      <span>#박물관관광</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 오른쪽 -->
+        <div class="right">
+          <div class="right-top">
+            <div class="fraction"></div>
+            <div class="tab-controls">
+              <button id="play" aria-label="pause">
+                <i class="fa-solid fa-pause"></i>
+              </button>
+              <button id="prev" aria-label="previous">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button id="next" aria-label="next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="thumb-grid">
+            <a href="#none">
+              <div class="thumb active" data-img="image/tour01.png"><span>제부도</span></div>
+              <div class="click_cta">
+                <div class="click_anim"></div>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="thumb" data-img="image/tour02.png"><span>무봉산 자연휴양림</span></div>
+            </a>
+            <a href="#none">
+              <div class="thumb" data-img="image/tour03.jpg"><span>궁평항</span></div>
+            </a>
+            <a href="#none">
+              <div class="thumb" data-img="image/tour04.jpg"><span>공룡알 화석산지</span></div>
+            </a>
+            <a href="#none">
+              <div class="thumb" data-img="image/tour05.png"><span>융건릉</span></div>
+            </a>
+            <a href="#none">
+              <div class="thumb" data-img="image/tour06.jpg"><span>용주사</span></div>
+            </a>
+            <a href="#none">
+              <div class="thumb" data-img="image/tour07.jpg"><span>서해랑 케이블카</span></div>
+            </a>
+            <a href="#none">
+              <div class="thumb" data-img="image/tour08.png"><span>우리 꽃 식물원</span></div>
+            </a>
+            <a href="#none">
+              <div class="thumb" data-img="image/tour09.jpg"><span>역사박물관</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- 모바일 -->
+    <div class="container">
+
+      <div class="tour-m">
+        <nav class="mobile-tabs">
+          <div class="tab active" data-index="0">제부도
+            <div class="click_cta">
+              <div class="click_anim"></div>
+            </div>
+          </div>
+          <div class="tab" data-index="1">무봉산자연휴양림</div>
+          <div class="tab" data-index="2">궁평항</div>
+          <div class="tab" data-index="3">공룡알 화석산지</div>
+          <div class="tab" data-index="4">융건릉</div>
+          <div class="tab" data-index="5">용주사</div>
+          <div class="tab" data-index="6">서해랑 케이블카</div>
+          <div class="tab" data-index="7">우리 꽃 식물원</div>
+          <div class="tab" data-index="8">역사박물관</div>
+        </nav>
+
+        <div class="mobile-slides-wrapper">
+          <!-- Slide 1 -->
+          <div class="mobile-slide active" data-index="0">
+            <a href="sub1.html">
+              <div class="image-wrapper">
+                <img src="image/tour01.png" alt="제부도" class="mobile-image">
+
+                <div class="slide-overlay">
+                  <div class="top_wrap">
+                    <div class="progress-bar">
+                      <div class="progress-fill"></div>
+                    </div>
+                    <div class="current-label">제부도</div>
+                  </div>
+
+                  <div class="mobile-icons">
+                    <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                    <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                    <div class="rating">
+                      <span>★ 4.26</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="mobile-slide-bottom">
+                <p class="mobile-desc">썰물 때만 차량 통행이 가능한 독특한 해안 마을</p>
+                <div class="mobile-controls">
+                  <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                  <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                  <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+              </div>
+
+              <div class="mobile-tags">
+                <span>#일몰 명소 </span>
+                <span>#전망대</span>
+                <span>#바닷길 드라이브 코스</span>
+              </div>
+
+              <footer class="mobile-footer">
+                <button class="footer-btn call"><i class="fa-solid fa-phone"></i> 1577-4200</button>
+                <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i> 경기도 화성시 서신면 제부리</button>
+              </footer>
+            </a>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="mobile-slide" data-index="1">
+            <div class="image-wrapper">
+              <img src="image/tour02.png" alt="무봉산 자연휴양림" class="mobile-image">
+
+              <div class="slide-overlay">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+
+                <div class="current-label">무봉산 자연휴양림</div>
+
+                <div class="mobile-icons">
+                  <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                  <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                  <div class="rating"><span>★ 4.26</span></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mobile-slide-bottom">
+              <p class="mobile-desc">울창한 숲에서 휴식과 숙박을 즐기는 자연 휴양 공간</p>
+              <div class="mobile-controls">
+                <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <div class="mobile-tags">
+              <span>#자연휴양림</span>
+              <span>#숲속힐링</span>
+              <span>#산림관광</span>
+            </div>
+
+            <footer class="mobile-footer">
+              <button class="footer-btn call"><i class="fa-solid fa-phone"></i>031-373-1162</button>
+              <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i>경기도 화성시 동탄순환대로24길 185</button>
+            </footer>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="mobile-slide" data-index="2">
+            <div class="image-wrapper">
+              <img src="image/tour03.jpg" alt="궁평항" class="mobile-image">
+
+              <div class="slide-overlay">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+
+                <div class="current-label">궁평항</div>
+
+                <div class="mobile-icons">
+                  <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                  <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                  <div class="rating"><span>★ 4.26</span></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mobile-slide-bottom">
+              <p class="mobile-desc">서해의 낙조와 어촌 풍경을 만날 수 있는 해안 항구</p>
+              <div class="mobile-controls">
+                <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <div class="mobile-tags">
+              <span>#서해안관광</span>
+              <span>#항구풍경</span>
+              <span>#노을명소</span>
+            </div>
+
+            <footer class="mobile-footer">
+              <button class="footer-btn call"><i class="fa-solid fa-phone"></i>031-356-7339</button>
+              <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i>경기 화성시 서신면 궁평항로
+                1049-24</button>
+            </footer>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="mobile-slide" data-index="3">
+            <div class="image-wrapper">
+              <img src="image/tour04.jpg" alt="공룡알 화석산지" class="mobile-image">
+
+              <div class="slide-overlay">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+
+                <div class="current-label">공룡알 화석산지</div>
+
+                <div class="mobile-icons">
+                  <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                  <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                  <div class="rating"><span>★ 4.26</span></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mobile-slide-bottom">
+              <p class="mobile-desc">공룡알 화석이 발견된 국내 대표 자연유산</p>
+              <div class="mobile-controls">
+                <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <div class="mobile-tags">
+              <span>#자연유산</span>
+              <span>#지질명소</span>
+              <span>#공룡화석</span>
+            </div>
+
+            <footer class="mobile-footer">
+              <button class="footer-btn call"><i class="fa-solid fa-phone"></i>031-357-3951</button>
+              <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i>경기 화성시 송산면 공룡로 659</button>
+            </footer>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="mobile-slide" data-index="4">
+            <div class="image-wrapper">
+              <img src="image/tour05.png" alt="융건릉" class="mobile-image">
+
+              <div class="slide-overlay">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+
+                <div class="current-label">융건릉</div>
+
+                <div class="mobile-icons">
+                  <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                  <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                  <div class="rating"><span>★ 4.26</span></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mobile-slide-bottom">
+              <p class="mobile-desc">조선 왕실의 역사를 간직한 유네스코 세계문화유산</p>
+              <div class="mobile-controls">
+                <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <div class="mobile-tags">
+              <span>#세계문화유산</span>
+              <span>#왕릉관광</span>
+              <span>#역사문화</span>
+            </div>
+
+            <footer class="mobile-footer">
+              <button class="footer-btn call"><i class="fa-solid fa-phone"></i>031-222-0142</button>
+              <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i>경기 화성시 효행로481번길 21</button>
+            </footer>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="mobile-slide" data-index="5">
+            <div class="image-wrapper">
+              <img src="image/tour06.jpg" alt="용주사" class="mobile-image">
+
+              <div class="slide-overlay">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+
+                <div class="current-label">용주사</div>
+
+                <div class="mobile-icons">
+                  <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                  <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                  <div class="rating"><span>★ 4.26</span></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mobile-slide-bottom">
+              <p class="mobile-desc">정조의 효심이 깃든 전통 사찰</p>
+              <div class="mobile-controls">
+                <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <div class="mobile-tags">
+              <span>#전통사찰</span>
+              <span>#불교문화</span>
+              <span>#역사명소</span>
+            </div>
+
+            <footer class="mobile-footer">
+              <button class="footer-btn call"><i class="fa-solid fa-phone"></i>031-234-0040</button>
+              <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i>경기 화성시 송산동 187-2</button>
+            </footer>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="mobile-slide" data-index="6">
+            <div class="image-wrapper">
+              <img src="image/tour07.jpg" alt="서해랑 케이블카" class="mobile-image">
+
+              <div class="slide-overlay">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+
+                <div class="current-label">서해랑 케이블카</div>
+
+                <div class="mobile-icons">
+                  <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                  <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                  <div class="rating"><span>★ 4.26</span></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mobile-slide-bottom">
+              <p class="mobile-desc">서해 바다를 조망하는 해상 케이블카</p>
+              <div class="mobile-controls">
+                <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <div class="mobile-tags">
+              <span>#케이블카</span>
+              <span>#서해전망</span>
+              <span>#체험관광</span>
+            </div>
+
+            <footer class="mobile-footer">
+              <button class="footer-btn call"><i class="fa-solid fa-phone"></i>1833-4997</button>
+              <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i>경기 화성시 서신면 전곡항로 1-10</button>
+            </footer>
+          </div>
+
+          <!-- Slide 8 -->
+          <div class="mobile-slide" data-index="7">
+            <div class="image-wrapper">
+              <img src="image/tour08.png" alt="우리 꽃 식물원" class="mobile-image">
+
+              <div class="slide-overlay">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+
+                <div class="current-label">우리 꽃 식물원</div>
+
+                <div class="mobile-icons">
+                  <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                  <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                  <div class="rating"><span>★ 4.26</span></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mobile-slide-bottom">
+              <p class="mobile-desc">우리나라 자생 식물을 만날 수 있는 식물원</p>
+              <div class="mobile-controls">
+                <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <div class="mobile-tags">
+              <span>#자생식물</span>
+              <span>#생태체험</span>
+              <span>#자연학습</span>
+            </div>
+
+            <footer class="mobile-footer">
+              <button class="footer-btn call"><i class="fa-solid fa-phone"></i>031-5189-6160</button>
+              <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i>경기 화성시 팔탄면 3.1만세로
+                777-17</button>
+            </footer>
+          </div>
+
+          <!-- Slide 9 -->
+          <div class="mobile-slide" data-index="8">
+            <div class="image-wrapper">
+              <img src="image/tour09.jpg" alt="역사박물관" class="mobile-image">
+
+              <div class="slide-overlay">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+
+                <div class="current-label">역사박물관</div>
+
+                <div class="mobile-icons">
+                  <button class="icon-btn home"><i class="fa-solid fa-house"></i></button>
+                  <button class="icon-btn location"><i class="fa-solid fa-location-dot"></i></button>
+                  <div class="rating"><span>★ 4.26</span></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="mobile-slide-bottom">
+              <p class="mobile-desc">화성의 역사와 문화를 소개하는 박물관</p>
+              <div class="mobile-controls">
+                <button id="mobilePlay" class="control-btn"><i class="fa-solid fa-pause"></i></button>
+                <button id="mobilePrev" class="control-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="mobileNext" class="control-btn"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+
+            <div class="mobile-tags">
+              <span>#지역역사</span>
+              <span>#문화전시</span>
+              <span>#박물관관광</span>
+            </div>
+
+            <footer class="mobile-footer">
+              <button class="footer-btn call"><i class="fa-solid fa-phone"></i>031-5189-7038</button>
+              <button class="footer-btn address"><i class="fa-solid fa-location-dot"></i>경기 화성시 향남읍 행정동로 96</button>
+            </footer>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 문화공간 -->
+  <section id="cultural_space">
+    <div class="container">
+      <div class="title">
+        <div class="main_title">문화공간 </div>
+        <div class="sub_title">문화와 예술이 있는 공간을 안내합니다.</div>
+      </div>
+      <ul class="cultural_Tab_list">
+        <li>
+          <button class="tab_item active" data-tab="art"># 생활예술공간</button>
+        </li>
+        <li>
+          <button class="tab_item" data-tab="technology"># 생활기술공간</button>
+        </li>
+        <li>
+          <button class="tab_item" data-tab="exchange"># 생활교류공간</button>
+        </li>
+        <li>
+          <button class="tab_item" data-tab="amalgamation"># 소비융합공간</button>
+        </li>
+      </ul>
+      <div class="swiper_mask">
+        <div class="swiper culturalSwiper active" id="art">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide place">
+              <div class="img_box">
+                <img src="image/Culture01.png" alt="반석아트홀의 사진">
+              </div>
+              <span class="place_name">반석아트홀</span>
+              <div class="hover_box">
+                <h4>반석아트홀</h4>
+                <p>공연, 전시, 교육까지 한곳에 담은<br>
+                  복합문화공간 화성반석아트홀</p>
+                <div class="place_info">
+                  <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>경기도 화성시 노작로 134</span>
+                  </div>
+                  <div class="number">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>1588-5234</span>
+                  </div>
+                  <div class="Closed">
+                    <i class="fas fa-calendar-times"></i>
+                    <span>공연 일정에 따라 상이함</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide place active">
+              <div class="img_box">
+                <img src="image/Culture02.png" alt="엄미술관의 사진">
+              </div>
+              <span class="place_name">엄미술관</span>
+              <div class="hover_box">
+                <h4>엄미술관</h4>
+                <p>포용성과 지속가능성을 추구하는<br>
+                  화성시 등록 사립 현대미술관입니다.</p>
+                <div class="place_info">
+                  <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>경기도 화성시 봉담읍 오궁길 37</span>
+                  </div>
+                  <div class="number">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>0507-1334-9188</span>
+                  </div>
+                  <div class="Closed">
+                    <i class="fas fa-calendar-times"></i>
+                    <span>매주 월,일 휴무</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide place">
+              <div class="img_box">
+                <img src="image/Culture03.jpg" alt="소다미술관의 사진">
+              </div>
+              <span class="place_name">소다미술관</span>
+              <div class="hover_box">
+                <h4>소다미술관</h4>
+                <p>짓다만 찜질방을 재해석해 탄생한<br>
+                  화성시 최초의 디자인,<br>건축 테마 사립미술관 소다</p>
+                <div class="place_info">
+                  <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>경기도 화성시 효행로 707번길 30</span>
+                  </div>
+                  <div class="number">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>070-8915-9127</span>
+                  </div>
+                  <div class="Closed">
+                    <i class="fas fa-calendar-times"></i>
+                    <span>매주 일, 월 휴무</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide place">
+              <div class="img_box">
+                <img src="image/Culture05.png" alt="화성시공예문화관의 사진">
+              </div>
+              <span class="place_name">화성시공예문화관</span>
+              <div class="hover_box">
+                <h4>화성시공예문화관</h4>
+                <p>공예 기술 전수와<br>체험·교육 프로그램과 다양한<br>
+                  공예 전시를 제공하는 공간</p>
+                <div class="place_info">
+                  <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>경기도 화성시 우정읍 고음이안길 24-9</span>
+                  </div>
+                  <div class="number">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>031-366-8224</span>
+                  </div>
+                  <div class="Closed">
+                    <i class="fas fa-calendar-times"></i>
+                    <span>매주 월 휴무</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide place">
+              <div class="img_box">
+                <img src="image/Culture6.jpg" alt="민들레연극마을">
+              </div>
+              <span class="place_name">민들레연극마을</span>
+              <div class="hover_box">
+                <h4>민들레연극마을</h4>
+                <p>농촌 체험과 연극이 만나는 특별한 공간<br>
+                  민들레연극마을에서 신나는 예술 체험</p>
+                <div class="place_info">
+                  <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>경기도 화성시 우정읍 이화뱅곳길 22</span>
+                  </div>
+                  <div class="number">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>031-358-7587</span>
+                  </div>
+                  <div class="Closed">
+                    <i class="fas fa-calendar-times"></i>
+                    <span>연중무휴</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide place">
+              <div class="img_box">
+                <img src="image/Culture07.jpg" alt="화성문화원">
+              </div>
+              <span class="place_name">화성문화원</span>
+              <div class="hover_box">
+                <h4>화성문화원</h4>
+                <p>역문화의 보존과 발전을 위해 다양한 활동을<br>
+                  수행하는 지역 문화기관입니다.</p>
+                <div class="place_info">
+                  <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>경기도 화성시 향남읍 발안로 89</span>
+                  </div>
+                  <div class="number">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>031-353-6330</span>
+                  </div>
+                  <div class="Closed">
+                    <i class="fas fa-calendar-times"></i>
+                    <span>매주 토,일 휴무</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide place">
+              <div class="img_box">
+                <img src="image/Culture08.jpg" alt="용주사효행박물관">
+              </div>
+              <span class="place_name">용주사효행박물관</span>
+              <div class="hover_box">
+                <h4>용주사효행박물관</h4>
+                <p>포용성과 지속가능성을 추구하는<br>
+                  화성시 등록 사립 현대미술관입니다.</p>
+                <div class="place_info">
+                  <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>경기도 화성시 송산동 188</span>
+                  </div>
+                  <div class="number">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>031-234-0040</span>
+                  </div>
+                  <div class="Closed">
+                    <i class="fas fa-calendar-times"></i>
+                    <span>연중무휴</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide place">
+              <div class="img">
+                <a href="#none">
+                  <span class="view_all">VIEW-ALL</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="culturalSwiper_btn_wrap">
+            <div class="culturalSwiper-button-prev">
+              <i class="fas fa-angle-left"></i>
+            </div>
+            <div class="culturalSwiper-button-next">
+              <i class="fas fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper culturalSwiper" id="technology">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/technology01.jpg" alt="갤러리문화아지트의 사진">
+            </div>
+            <span class="place_name">갤러리문화아지트</span>
+            <div class="hover_box">
+              <h4>갤러리문화아지트</h4>
+              <p>직접 만들고 배우는 공예 체험 중심의 문화공방</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기 화성시 남여울1길 23 1층 101호</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0507-1406-1283</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>고정 휴무 없음</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place active">
+            <div class="img_box">
+              <img src="image/technology02.jpg" alt="무채색공간의사진">
+            </div>
+            <span class="place_name">무채색공간</span>
+            <div class="hover_box">
+              <h4>무채색공간</h4>
+              <p>도예가 부부가 함께 운영하는 한국 전통 공방</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기 화성시 정남면 서봉로1028번길 13 1층</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0507-1380-3815</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>고정 휴무 없음</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/technology03.jpg" alt="에코뜰자연학교의사진">
+            </div>
+            <span class="place_name">에코뜰자연학교</span>
+            <div class="hover_box">
+              <h4>에코뜰자연학교</h4>
+              <p>자연에서 느끼는 다양한 체험학습</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기도 화성시 정남면 용수길 26번길 3-10</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0507-1340-5948</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>휴무 사전 문의</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/technology04.jpg" alt="은가비글라스작업실의 사진">
+            </div>
+            <span class="place_name">은가비글라스작업실</span>
+            <div class="hover_box">
+              <h4>은가비글라스작업실</h4>
+              <p>유리 공예 체험과 작품 제작이<br>이루어지는 글라스 공방</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기 화성시 향남읍 신광길 15</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0507-1484-1029</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>휴무 사전 문의</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img">
+              <a href="#none">
+                <span class="view_all">VIEW-ALL</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="culturalSwiper_btn_wrap">
+          <div class="culturalSwiper-button-prev">
+            <i class="fas fa-angle-left"></i>
+          </div>
+          <div class="culturalSwiper-button-next">
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper culturalSwiper" id="exchange">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/exchange01.jpg" alt="다원이음터의 사진">
+            </div>
+            <span class="place_name">다원이음터</span>
+            <div class="hover_box">
+              <h4>다원이음터</h4>
+              <p>학교시설과 공공시설이 결합한 학교복합화시설로<br>
+                마을과 학교주민을 잇는 공간</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기 화성시 동탄순환대로 754-14</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>031-375-5702</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>공휴일 휴무</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place active">
+            <div class="img_box">
+              <img src="image/exchange02.jpg" alt="마음을 잇다의 사진">
+            </div>
+            <span class="place_name">마음을 잇다</span>
+            <div class="hover_box">
+              <h4>마음을 잇다</h4>
+              <p>커피박 업사이클링과 밀랍초 제작으로<br>
+                제로웨이스트샵 운영과 교육·캠페인을 <br>
+                진행하는 사회적협동조합</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기도 화성시 송산면 송산포도로 111 3층</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>031-366-8800</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>매주 주말 휴무</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/exchange03.jpg" alt="바다건너의 사진">
+            </div>
+            <span class="place_name">바다건너</span>
+            <div class="hover_box">
+              <h4>바다건너</h4>
+              <p>아시아다문화소통센터가 운영하는
+                <br>아시아페어라이프커뮤니티의 소중한 보금자리
+                <br>아시아 공동체 공간 ‘바다건너’
+              </p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기도 화성시 떡전골로 111 2층</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0507-1405-1547</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>매주 월 휴무</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/exchange04.jpg" alt="유앤아이센터의 사진">
+            </div>
+            <span class="place_name">유앤아이센터</span>
+            <div class="hover_box">
+              <h4>유앤아이센터</h4>
+              <p>여성과 가족을 위한 교육·문화·소통의<br>
+                대규모 복합 커뮤니티 공간</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기도 화성시 태안로 145</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>031-267-8800</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>시설(공간)별 휴무일 상이함</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img">
+              <a href="#none">
+                <span class="view_all">VIEW-ALL</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="culturalSwiper_btn_wrap">
+          <div class="culturalSwiper-button-prev">
+            <i class="fas fa-angle-left"></i>
+          </div>
+          <div class="culturalSwiper-button-next">
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper culturalSwiper" id="amalgamation">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/amalgamation01.jpg" alt="더포레의 사진">
+            </div>
+            <span class="place_name">더포레</span>
+            <div class="hover_box">
+              <h4>더포레</h4>
+              <p>유럽식농장을 모티브로 젊은 농부들이 운영하는<br>
+                숲속 작은 마을의 컨셉의 베이커리 농원 카페</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기도 화성시 향남읍 두렁바위길 49-13</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0507-1495-9297</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>연중무휴</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place active">
+            <div class="img_box">
+              <img src="image/amalgamation02.jpg" alt="로얄엑스클럽의 사진">
+            </div>
+            <span class="place_name">로얄엑스클럽</span>
+            <div class="hover_box">
+              <h4>로얄엑스클럽</h4>
+              <p>욕실 감성 갤러리, 브런치, 라운지를<br>
+                경험할 수 있는 대형 복합 문화 공간</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기도 화성시 팔탄면 시청로 895-20</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>1566-7070</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>매주 월 휴무</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/amalgamation03.jpg" alt="모모책방">
+            </div>
+            <span class="place_name">모모책방</span>
+            <div class="hover_box">
+              <h4>모모책방</h4>
+              <p>일회용 포장대신 '책보'를 증정하여 제로웨이스트를 실천하는 독립서점<br>
+                무포장으로 책을 구입해 가시면 실시간으로 수채화 책갈피 증정</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기도 화성시 봉담읍 오래3길 7 1층</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0507-1307-5084</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>매주 주말 휴무</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img_box">
+              <img src="image/amalgamation04.PNG" alt="해윰">
+            </div>
+            <span class="place_name">해윰</span>
+            <div class="hover_box">
+              <h4>해윰</h4>
+              <p>어머니의 마음으로 건강한 먹거리를 연구하며<br>
+                한식 디저트·수제청 판매와 체험·원데이클래스를 운영하는 공간</p>
+              <div class="place_info">
+                <div class="address">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>경기도 화성시 남양읍 남양중앙로 185-61 1층</span>
+                </div>
+                <div class="number">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0507-1419-8262</span>
+                </div>
+                <div class="Closed">
+                  <i class="fas fa-calendar-times"></i>
+                  <span>매달 2,4번째 토 휴무</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide place">
+            <div class="img">
+              <a href="#none">
+                <span class="view_all">VIEW-ALL</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="culturalSwiper_btn_wrap">
+          <div class="culturalSwiper-button-prev">
+            <i class="fas fa-angle-left"></i>
+          </div>
+          <div class="culturalSwiper-button-next">
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- 재단소식 -->
+  <section id="foundation_news">
+    <div class="cloudBg_img"></div>
+    <div class="container">
+      <div class="click_cursor">
+        <img src="image/click_icon.png" alt="클릭 유도 이미지">
+      </div>
+      <div class="title">
+        <h2 class="main_title">재단소식</h2>
+        <h3 class="sub_title">재단의 주<span>요 소식을 전해드립니다.</span></h3>
+      </div>
+      <div class="area_wrap">
+        <div class="news_area">
+          <div class="top_menu">
+            <ul class="newsTab_list">
+              <li><button class="news_tab_item active" data-tab="Announcements">공지사항</button></li>
+              <li><button class="news_tab_item" data-tab="carrer">채용정보</button></li>
+              <li><button class="news_tab_item" data-tab="announce">공고</button></li>
+            </ul>
+            <div class="pagination_bottons">
+              <div class="news_swiper-button-prev">
+                <i class="fas fa-angle-left"></i>
+              </div>
+              <div class="news_swiper-button-next">
+                <i class="fas fa-angle-right"></i>
+              </div>
+              <button class="news_view_more">
+                <a href="sub2.html">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="swiper news_swiper active" id="Announcements">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        엄태정조각전 '낮선자의 포에지'<br>전시연계 웰니스 프로그램<미술관요가>
+                      </p>
+                      <time datetime="2025-11-17" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.17</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none"></a>
+                    <h4 class="boardName">공지사항</h4>
+                    <p class="boardTitle">
+                      2025화성메세나 아트페어 참여<br>예술가 공모 결과 발표<미술관요가>
+                    </p>
+                    <time datetime="2025-11-17" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.17</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        2025꿈의 무용단 '화성'_울트라화성<br>제 2회 정기공연 <안녕!지구>
+                      </p>
+                      <time datetime="2025-11-17" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.17</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        2025 일상 예술활동 지원 사업<br>자유공간 + 성과공유전
+                      </p>
+                      <time datetime="2025-11-12" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.12</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        2025 찾아가는 공연장 「화성시 문화의날」<br>주간 거리공연 11월4주 - 서해랑 해상케이블카
+                      </p>
+                      <time datetime="2025-11-12" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.12</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        동탄복합문화센터<br>열람실 운영 재개 (2025.11.11 ~)
+                      </p>
+                      <time datetime="2025-11-11" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.11</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        [2025 화성메세나] 극단 화성에서 본 지구<br>
+                        <귀달린뱀이 용이라구~용?>
+                      </p>
+                      <time datetime="2025-11-07" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.07</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        [동탄복합문화센터] 엄태정 조각전 <낯선자의 포에지><br>아티스트 토크 참여자 모집
+                      </p>
+                      <time datetime="2025-10-31" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.31</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        [2025 모든예술31 화성] 의지도 능력도 딸림 7화음<br>(선정 예술가 : 김홍기)
+                      </p>
+                      <time datetime="2025-10-31" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.31</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        [2025 화성메세나] 박소연 작가 개인전<br>
+                        <숨, breath>
+                      </p>
+                      <time datetime="2025-10-30" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.30</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        2025 정조 효 문화제 사진 공모전<br>최종 수상자 발표
+                      </p>
+                      <time datetime="2025-10-27" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.27</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        홈페이지 일시 중지 안내<br>(10.27 22:00- 10.28 02:00)
+                      </p>
+                      <time datetime="2025-10-26" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.26</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        [2025 화성메세나] 툴뮤직장애인예술단 - <HARMONY:화성><br>앨범 발매 및 기념 쇼케이스 (10.27.)
+                      </p>
+                      <time datetime="2025-10-24" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.24</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        [2025 화성메세나] 박소연작가 개인전<br>
+                        <숨 breath> (10.14.~10.19.)
+                      </p>
+                      <time datetime="2025-10-24" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.24</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        [2025 화성메세나] NOW무용단<br>커뮤니티댄스<여자이야기> (10.19.)
+                      </p>
+                      <time datetime="2025-10-24" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.24</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        2025 화성 루나 빛 축제 <br>
+                        <코스튬 디스코 파티> 모집 마감
+                      </p>
+                      <time datetime="2025-10-20" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.20</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper news_swiper" id="carrer">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 화성예술의전당<br>공연장안내원 채용공고
+                      </p>
+                      <time datetime="2025-11-13" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.13</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2026년 (재)화성시문화관광재단 시설체육운영팀<br>단시간근로자 및 기간제근로자 채용 공고
+                      </p>
+                      <time datetime="2025-11-06" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.06</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 화성예술의전당 매표소<br>지원인력 채용 최종합격자 공고
+                      </p>
+                      <time datetime="2025-10-31" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.31</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 화성예술의전당 매표소 <br>지원인력 채용 서류심사 결과 및 면접심사 공고
+                      </p>
+                      <time datetime="2025-10-24" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.24</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 제10회 (재)화성시문화관광재단<br>직원 채용 기술직 최종합격자 공고
+                      </p>
+                      <time datetime="2025-10-21" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.21</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 제10회 (재)화성시문화관광재단 직원 채용<br>인적성직무능력검사 결과 및 향후 계획 안내
+                      </p>
+                      <time datetime="2025-10-01" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.01</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 화성예술의전당 매표소<br>지원인력 채용공고
+                      </p>
+                      <time datetime="2025-10-01" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.01</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 (재)화성시문화관광재단 시설체육운영팀 <br>단시간근로자 채용 재공고
+                      </p>
+                      <time datetime="2025-09-30" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.30</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 화성예술의전당 하우스 운영인력 채용<br>응시현황 및 채용과정 등 공개
+                      </p>
+                      <time datetime="2025-09-29" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.29</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">채용정보</h4>
+                      <p class="boardTitle">
+                        2025년 화성예술의전당 하우스 운영인력<br>채용 최종합격자 공고
+                      </p>
+                      <time datetime="2025-09-29" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.29</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none"></a>
+                    <h4 class="boardName">채용정보</h4>
+                    <p class="boardTitle">
+                      2025년 제10회 (재)화성시문화관광재단<br>직원 채용 필기시험 결과 및 향후 계획 안내
+                    </p>
+                    <time datetime="2025-09-24" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.24</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공지사항</h4>
+                      <p class="boardTitle">
+                        2025년 제11회 (재)화성시문화관광재단 직원<br>채용 공고 (하반기 화성시 공공기관 통합채용)
+                      </p>
+                      <time datetime="2025-09-23" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.23</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper news_swiper" id="announce">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공고</h4>
+                      <p class="boardTitle">
+                        2026년 상반기 화성시문화관광재단 공연장<br>수시대관 관련 사전 안내
+                      </p>
+                      <time datetime="2025-11-11" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.11</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공고</h4>
+                      <p class="boardTitle">
+                        2026년 상반기 (재)화성시문화관광재단 전시공간<br>정기대관 공고(동탄복합문화센터, 화성열린문화예술공간)
+                      </p>
+                      <time datetime="2025-11-11" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.11.11</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공고</h4>
+                      <p class="boardTitle">
+                        2026년 상반기 아르코공연연습센터@화성<br>정기대관 공고
+                      </p>
+                      <time datetime="2025-10-30" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.30</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공고</h4>
+                      <p class="boardTitle">
+                        2026년 화성시생활문화센터<br>입주창작자 모집 공고
+                      </p>
+                      <time datetime="2025-10-27" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.10.27</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper_grid">
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공고</h4>
+                      <p class="boardTitle">
+                        2026년도 상반기 (재)화성시문화관광재단<br>공연장 정기대관 공고
+                      </p>
+                      <time datetime="2025-09-29" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.29</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공고</h4>
+                      <p class="boardTitle">
+                        2025 화성 루나 빛 축제 행사 대행<br>우선협상 대상자 선정결과 공고
+                      </p>
+                      <time datetime="2025-09-24" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.24</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공고</h4>
+                      <p class="boardTitle">
+                        2025 화성 루나 빛 축제 행사<br>대행 입찰 (재)공고[긴급]
+                      </p>
+                      <time datetime="2025-09-08" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.08</time>
+                    </a>
+                  </div>
+                  <div class="box">
+                    <a href="#none">
+                      <h4 class="boardName">공고</h4>
+                      <p class="boardTitle">
+                        『2025 경기인디뮤직페스티벌 부대행사』<br>음식판매자동차(푸드트럭) 영업자 공개 모집
+                      </p>
+                      <time datetime="2025-09-05" class="boardDate"><i class="fas fa-calendar-alt"></i>2025.09.05</time>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="webjin_area">
+          <div class="webjin_title">
+            <h4>[웹진] 화분 68호</h4>
+            <span>2025년 가을과 겨울 사이</span>
+          </div>
+          <div class="newsContant_box">
+            <div class="main_contant">
+              <img src="image/Webjin_main.png" alt="웹진메인이미지">
+              <span>'2025 라이징 스타를 찾아라' 우승팀 블루 이즈 낫 블루</span>
+            </div>
+            <div class="sub_wrap">
+              <div class="sub_contant">
+                <img src="image/Webjin_sub01.png" alt="웹진서브이미지01">
+                <span>발안만세시장을 맛있게<br>즐기는 31가지 방법</span>
+              </div>
+              <div class="sub_contant">
+                <img src="image/Webjin_sub02.png" alt="웹진서브이미지02">
+                <span>공연, 일상 그 이상의 감정</span>
+              </div>
+              <div class="sub_contant">
+                <img src="image/Webjin_sub03.png" alt="웹진서브이미지03">
+                <span>화성 아트버스 &<br>화성특레시 서울로</span>
+              </div>
+              <div class="sub_contant">
+                <img src="image/Webjin_sub04.png" alt="웹진서브이미지04">
+                <span>친구의 눈에만 보이는</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SNS -->
+  <section id="SNS">
+    <div class="container">
+      <div class="title">
+        <h2 class="main_title">SNS</h2>
+        <h3 class="sub_title">다양한 채널에서 소식을 전합니다</h3>
+      </div>
+      <div class="sns_box_wrap">
+        <div class="sns_box">
+          <a href="https://www.instagram.com/hcfart" target="_blank">
+            <div class="sns_name">
+              <img src="image/Logo_instar.png" alt="인스타로고">
+            </div>
+            <div class="sns_img">
+              <img src="image/Sns_instar.png" alt="인스타사진">
+            </div>
+            <div class="sns_channel_icon">
+              <img src="image/Icon_instar.png" alt="인스타아이콘">
+              <span class="site_name">HCTF</span>
+            </div>
+          </a>
+        </div>
+        <div class="sns_box">
+          <a href="https://www.facebook.com/hscfart" target="_blank">
+            <div class="sns_name">
+              <img src="image/Logo_facebook.png" alt="페이스북로고이미지">
+            </div>
+            <div class="sns_img">
+              <img src="image/Sns_facebook.png" alt="페이스북이미지">
+            </div>
+            <div class="sns_channel_icon">
+              <img src="image/Icon_facebook.png" alt="페이스북아이콘">
+              <span class="site_name">HCTF</span>
+            </div>
+          </a>
+        </div>
+        <div class="sns_box">
+          <a href="https://blog.naver.com/hcfart" target="_blank">
+            <div class="sns_name">
+              <img src="image/Logo_blog.png" alt="네이버블로그로고">
+            </div>
+            <div class="sns_img">
+              <img src="image/Sns_blog.png" alt="네이버블로그이미지">
+            </div>
+            <div class="sns_channel_icon">
+              <img src="image/Icon_blog.png" alt="네이버블로그아이콘">
+              <span class="site_name">HCTF</span>
+            </div>
+          </a>
+        </div>
+        <div class="sns_box">
+          <a href="https://pf.kakao.com/_pvRHxl" target="_blank">
+            <div class="sns_name">
+              <img src="image/Logo_kakao.png" alt="카카오톡로고">
+            </div>
+            <div class="sns_img">
+              <img src="image/Sns_kakao.png" alt="카카오톡사진">
+            </div>
+            <div class="sns_channel_icon">
+              <img src="image/Icon_kakao.png" alt="카카오톡아이콘">
+              <span class="site_name">HCTF</span>
+            </div>
+          </a>
+        </div>
+        <div class="sns_box">
+          <a href="https://www.youtube.com/channel/UCuA-HTwc41V0Xv-1zydoHYA" target="_blank">
+            <div class="sns_name">
+              <img src="image/Logo_youtube.png" alt="유튜브로고">
+            </div>
+            <div class="sns_img">
+              <img src="image/Sns_youtube.png" alt="유튜브사진">
+            </div>
+            <div class="sns_channel_icon">
+              <img src="image/Icon_youtube.png" alt="유튜브아이콘">
+              <span class="site_name">HCTF</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 탑버튼 -->
+  <button class="top_btn" aria-label="맨위로 이동">
+    <i class="fas fa-arrow-up"></i>TOP
+  </button>
+  <!-- 푸터 -->
+  <footer id="footer">
+    <!-- wave -->
+    <!-- 그라데이션 배경 -->
+    <div class="footer-bg"></div>
+    <!-- 물결 레이어 3겹 -->
+    <div class="wave_wrap">
+      <svg class="wave wave-1" viewBox="0 0 1440 200" preserveAspectRatio="none">
+        <path
+          d="M0 125L34.3 124.2C68.7 123.3 137.3 121.7 205.8 124.5C274.3 127.3 342.7 134.7 411.2 143C479.7 151.3 548.3 160.7 617 167.5C685.7 174.3 754.3 178.7 823 171.5C891.7 164.3 960.3 145.7 1028.8 140.8C1097.3 136 1165.7 145 1234.2 149.3C1302.7 153.7 1371.3 153.3 1405.7 153.2L1440 153L1440 201L1405.7 201C1371.3 201 1302.7 201 1234.2 201C1165.7 201 1097.3 201 1028.8 201C960.3 201 891.7 201 823 201C754.3 201 685.7 201 617 201C548.3 201 479.7 201 411.2 201C342.7 201 274.3 201 205.8 201C137.3 201 68.7 201 34.3 201L0 201Z"
+          stroke-linecap="round" stroke-linejoin="miter"></path>
+      </svg>
+      <svg class="wave wave-2" viewBox="0 0 1440 200" preserveAspectRatio="none">
+        <path
+          d="M0 177L34.3 171.5C68.7 166 137.3 155 205.8 153C274.3 151 342.7 158 411.2 165.2C479.7 172.3 548.3 179.7 617 182C685.7 184.3 754.3 181.7 823 175.3C891.7 169 960.3 159 1028.8 153C1097.3 147 1165.7 145 1234.2 139.3C1302.7 133.7 1371.3 124.3 1405.7 119.7L1440 115L1440 201L1405.7 201C1371.3 201 1302.7 201 1234.2 201C1165.7 201 1097.3 201 1028.8 201C960.3 201 891.7 201 823 201C754.3 201 685.7 201 617 201C548.3 201 479.7 201 411.2 201C342.7 201 274.3 201 205.8 201C137.3 201 68.7 201 34.3 201L0 201Z"
+          stroke-linecap="round" stroke-linejoin="miter"></path>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer_contents">
+        <div class="footer_left">
+          <div class="logo">
+            <img src="image/Logo_hwaseong_white.png" alt="로고 이미지">
+          </div>
+          <div class="wrap">
+            <ul class="footer_policy">
+              <li><a href="#none">개인정보처리방침</a></li>
+              <li><a href="#none">이용약관</a></li>
+              <li><a href="#none">이메일주소무단수집거부</a></li>
+              <li><a href="#none">고객서비스현장</a></li>
+              <li><a href="#none">조례및규정</a></li>
+              <li><a href="#none">클린신고센터</a></li>
+              <li><a href="#none">부패신고센터</a></li>
+            </ul>
+            <p class="footer_address">주소 : (18459) 경기도 화성시 노작로 134</p>
+            <ul class="footer_info">
+              <li>사업자등록번호: 124-82-17346</li>
+              <li>TEL : 031-8015-8100</li>
+              <li>FAX : 031-8015-8129</li>
+              <li>Email : webmaster@hcf.or.kr</li>
+            </ul>
+            <p class="footer_copyright">copyright (C) 2018.화성시문화재단.All right.reserved</p>
+          </div>
+        </div>
+        <div class="footer_right">
+          <img src="image/Web_accessibility.png" alt="WEB 접근성 이미지">
+          <div class="footer_right_content">
+            <div class="footer_help_box">
+              <div class="help_ment">
+                <i class="fas fa-phone-volume"></i>
+                <p>도와드릴까요?</p>
+              </div>
+              <ul class="help_callNumber">
+                <li>TEL : 031-8015-8100</li>
+                <li>FAX : 031-8015-8129</li>
+              </ul>
+            </div>
+            <div class="footer_family">
+              <div class="family_toggle">
+                <p>패밀리사이트</p>
+                <i class="fas fa-angle-down"></i>
+              </div>
+              <ul class="family_list">
+                <li><a href="#none">아트홀</li></a>
+                <li><a href="#none">생활문화센터</li></a>
+                <li><a href="#none">미디어센터</li></a>
+                <li><a href="#none">시립도서관</li></a>
+                <li><a href="#none">동탄복합문화센터</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
