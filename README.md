@@ -84,11 +84,11 @@ Figma를 활용하여 와이어프레임부터 비주얼 디자인, 데스크탑
 <table>
 <tr>
 <td align="center">
-<img src="https://github.com/user-attachments/assets/c2adab2c-40ba-4c2a-8cc7-65293207e5a5" width="400"/>
+<img src="https://github.com/user-attachments/assets/7882a10b-6e7e-486a-95f2-4746a59b94e0" width="400"/>
 </td>
 
 <td align="center">
-<img src="https://github.com/user-attachments/assets/982f8040-405d-43fc-8cd3-728d2178aad4" width="400"/>
+<img src="https://github.com/user-attachments/assets/7fef50f0-a090-49b2-b5bf-dc4abbb15fd4" width="400"/>
 </td>
 </tr>
 
