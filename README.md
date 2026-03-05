@@ -1,6 +1,6 @@
 # 화성시문화관광재단 리뉴얼 프로젝트
 
-HTML, CSS, JavaScript로 만든 화성시문화관광재단 리뉴얼 프로젝트 입니다.
+HTML, CSS, JavaScript로 만든 화성시문화관광재단 리뉴얼 프로젝트로 저의 첫 프로젝트 입니다.
 
 
 
@@ -16,8 +16,16 @@ https://khj544.dothome.co.kr/
 이에 따라 사용자 경험 개선과 시각적 완성도를 높이기 위해 리뉴얼을 진행했습니다.
 
 ## ⏳ Work Period
-2025.12.08 ~ 2026.01.10
+2025.12.08 ~ 2026.01.02
 
+
+## 🧩 Scope of work
+본 프로젝트는 개인 프로젝트로 전 과정을 단독으로 진행했습니다.
+
+- 기획 : 기존 사이트 분석 및 리뉴얼 방향 설정
+- 디자인 : UI 레이아웃 및 스타일 설계
+- 개발 : Desktop / Mobile 두 가지 디바이스 버전 구현
+- HTML, SCSS, JavaScript를 활용한 인터랙션 및 레이아웃 제작
 
 ## 🛠 Tech Stack
 - ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
@@ -51,17 +59,6 @@ Figma를 활용하여 와이어프레임부터 비주얼 디자인, 데스크탑
 - 공연·전시 전체일정 카드형 리스트 페이지 제작
 - SNS 콘텐츠 카드 레이아웃 구성
 - 반응형 웹 레이아웃 제작 (Desktop / Mobile)
-
-
-
-## 🧩 Scope of work
-본 프로젝트는 개인 프로젝트로 전 과정을 단독으로 진행했습니다.
-
-- 기획 : 기존 사이트 분석 및 리뉴얼 방향 설정
-- 디자인 : UI 레이아웃 및 스타일 설계
-- 개발 : Desktop / Mobile 두 가지 디바이스 버전 구현
-- HTML, SCSS, JavaScript를 활용한 인터랙션 및 레이아웃 제작
-
 
 
 ## 📂 Project Structure
