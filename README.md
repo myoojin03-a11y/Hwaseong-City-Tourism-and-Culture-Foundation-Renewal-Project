@@ -3,21 +3,12 @@
 HTML, CSS, JavaScript로 만든 화성시문화관광재단 리뉴얼 프로젝트로 저의 첫 프로젝트 입니다.
 
 
-
-## 🔗 Deploy
-https://khj544.dothome.co.kr/
-
-
 ## 📌 About Project
 화성시문화관광재단 웹사이트를 리뉴얼한 프로젝트입니다.
 
 기존 사이트는 정적인 콘텐츠 중심의 구성으로 이루어져 있었으며, 
 ‘문화관광’이라는 브랜드 이미지가 충분히 전달되지 않는다고 판단했습니다.  
 이에 따라 사용자 경험 개선과 시각적 완성도를 높이기 위해 리뉴얼을 진행했습니다.
-
-## ⏳ Work Period
-2025.12.08 ~ 2026.01.02
-
 
 ## 🧩 Scope of work
 본 프로젝트는 개인 프로젝트로 전 과정을 단독으로 진행했습니다.
@@ -33,21 +24,14 @@ https://khj544.dothome.co.kr/
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 
-
-## 📄 Planning Document
-화성시 관광문화재단 리뉴얼 기획 및 분석 문서입니다.
-
-👉 [기획서 보러가기](https://www.miricanvas.com/v/156mzna)
+## ⏳ Work Period
+2025.12.08 ~ 2026.01.02
 
 
-
-## 🎨 Design Document
-화성시문화관광재단 리뉴얼 프로젝트의 UI 디자인 문서입니다.  
-Figma를 활용하여 와이어프레임부터 비주얼 디자인, 데스크탑·모바일 반응형 레이아웃까지 설계했습니다.
-
-👉 [디자인 보러가기](https://www.figma.com/design/BsUkUKtFTYLOj7xpB3CPl9/%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EA%B4%80%EA%B4%91%EC%9E%AC%EB%8B%A8_%EB%A6%AC%EB%89%B4%EC%96%BC%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EB%94%94%EC%9E%90%EC%9D%B8?node-id=0-1&t=KfWb2pdXqx2tZhEB-1)
-
-
+## 🔗 link
+- [기획서 보러가기](https://www.miricanvas.com/v/156mzna)
+- [디자인 보러가기](https://www.figma.com/design/BsUkUKtFTYLOj7xpB3CPl9/%ED%99%94%EC%84%B1%EC%8B%9C%EB%AC%B8%ED%99%94%EA%B4%80%EA%B4%91%EC%9E%AC%EB%8B%A8_%EB%A6%AC%EB%89%B4%EC%96%BC%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EB%94%94%EC%9E%90%EC%9D%B8?node-id=0-1&t=KfWb2pdXqx2tZhEB-1)
+- [결과물 보러가기](https://khj544.dothome.co.kr/)
 
 ## ✨ Features
 - 메인 비주얼 슬라이드 배너 구현
@@ -95,15 +79,31 @@ Figma를 활용하여 와이어프레임부터 비주얼 디자인, 데스크탑
 </tr>
 </table>
 
-## 페이지 오픈시 팝업 등장
-<img src="https://github.com/user-attachments/assets/7fef50f0-a090-49b2-b5bf-dc4abbb15fd4"/>
-배포 링크를 클릭하여 페이지가 오픈되면 포트폴리오 안내 팝업창이 나오도록 했습니다.
-팝업창은 페이지를 오픈할때 딱 1번만 등장하며, 새로고침을 하거나 서브페이지로 이동 후 다시 메인페이지로 돌아왔을때 또 다시 팝업창이 떠 사용자가 탐색시 불편을 느끼지않도록 설계했습니다.
-링크를 완전히 닫은 후 재오픈할때는 다시 등장합니다.
+<br>
+<br>
 
--DOM 조작: querySelector와 style.display를 이용한 팝업 개폐.
--상태 유지: sessionStorage를 이용한 사용자 방문 상태 기록.
--UX 최적화: 팝업 활성화 시 body의 overflow: hidden 처리로 배경 스크롤을 방지함.
+## 핵심 기능
+
+### 🖱️ 세션 기반 포트폴리오 안내 모달 (Portfolio Entry Modal)
+
+<img src="https://github.com/user-attachments/assets/17b2994a-68db-4126-b55b-e32136288181" alt="포트폴리오 안내 팝업 스크린샷"/>
+
+#### 기능 개요
+배포 링크를 통해 페이지에 처음 진입했을 때만 노출되는 **안내용 레이어 팝업(모달)**입니다. 사용자가 사이트를 탐색하는 동안 불필요한 반복 노출을 방지하여 최적화된 UX를 제공합니다.
+
+*   **최초 1회 노출:** 페이지 접속 시 안내 창을 띄워 핵심 정보를 전달합니다.
+*   **스마트 노출 제어:** 새로고침이나 페이지 이동 후 재진입 시 팝업이 다시 뜨지 않아 탐색 흐름을 방해하지 않습니다.
+*   **세션 기반 리셋:** 브라우저 탭을 완전히 닫고 재오픈할 때만 다시 등장하도록 설계되었습니다.
+
+#### 기술적 특징
+- **DOM 조작:** `querySelector`와 `style.display`를 이용한 직관적인 팝업 개폐 로직 구현
+- **상태 유지:** `sessionStorage`를 활용하여 현재 세션의 방문 상태를 기록하고 노출 여부 결정
+- **UX 최적화:** 팝업 활성화 시 `body`의 `overflow: hidden` 처리를 통해 배경 스크롤을 방지하여 가독성 향상
+
+
+### 🖱️ 세션 기반 포트폴리오 안내 모달 (Portfolio Entry Modal)
+
+
 
 
 ## 💡 What I Learned
