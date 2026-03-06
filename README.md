@@ -311,7 +311,7 @@ li {
 - `padding-left` 적용 시 **텍스트와 불릿이 함께 이동**
 
 ### 정리
-`list-style-position: inside`로 문제가 해결이 가능하단걸 알게되었고, `::before` 가상 선택자를 사용하면 디자인 제어가 더 쉽게 가능하단걸 깨달았습니다.
+`list-style-position: inside`로 문제가 해결이 가능하단걸 알게되었고,해결방안을 모색해보며 list-style-type 대신 `::before` 가상 선택자를 사용하면 디자인 제어가 더 쉽게 가능하단 것도 깨달았습니다.
 
 
 ---
