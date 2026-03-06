@@ -95,6 +95,15 @@ Figma를 활용하여 와이어프레임부터 비주얼 디자인, 데스크탑
 </tr>
 </table>
 
+## 페이지 오픈시 팝업 등장
+<img src="https://github.com/user-attachments/assets/7fef50f0-a090-49b2-b5bf-dc4abbb15fd4"/>
+배포 링크를 클릭하여 페이지가 오픈되면 포트폴리오 안내 팝업창이 나오도록 했습니다.
+팝업창은 페이지를 오픈할때 딱 1번만 등장하며, 새로고침을 하거나 서브페이지로 이동 후 다시 메인페이지로 돌아왔을때 또 다시 팝업창이 떠 사용자가 탐색시 불편을 느끼지않도록 설계했습니다.
+링크를 완전히 닫은 후 재오픈할때는 다시 등장합니다.
+
+-DOM 조작: querySelector와 style.display를 이용한 팝업 개폐.
+-상태 유지: sessionStorage를 이용한 사용자 방문 상태 기록.
+-UX 최적화: 팝업 활성화 시 body의 overflow: hidden 처리로 배경 스크롤을 방지함.
 
 
 ## 💡 What I Learned
