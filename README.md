@@ -151,7 +151,7 @@ project
   모달 활성화 시 `body { overflow: hidden }` 처리로 배경 스크롤 방지
 
 
-### 🗺️관광지 슬라이더 (Hybrid Tour Guide Slider)
+### 🗺️관광지 슬라이더 (Tour Guide Slider)
 
 <img src="https://github.com/user-attachments/assets/a5b2fa33-19cb-48e9-9a62-8432b23b823d"/>
 <img src="https://github.com/user-attachments/assets/e63f60fd-e2ea-4b89-bf35-dfde87dba937"/>
